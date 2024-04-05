@@ -1,0 +1,9 @@
+    private static BLFacade appFacadeInterface;
+	
+	public static BLFacade getBusinessLogic(){
+		return appFacadeInterface;
+	}
+	 
+	public static void setBussinessLogic (BLFacade afi){
+		appFacadeInterface=afi;
+	}

@@ -1,0 +1,202 @@
+package businessLogic;
+import java.util.Date;
+import java.util.List;
+import java.util.ResourceBundle;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+import configuration.ConfigXML;
+import dataAccess.DataAccess;
+import domain.Ride;
+import domain.User;
+import domain.Booking;
+import domain.Driver;
+import exceptions.RideMustBeLaterThanTodayException;
+import exceptions.RideAlreadyExistException;
+
+/**
+ * It implements the business logic as a web service.
+ */
+@WebService(endpointInterface = "businessLogic.BLFacade")
+public class BLFacadeImplementation  implements BLFacade {
+	DataAccess dbManager;
+
+	public BLFacadeImplementation()  {		
+		System.out.println("Creating BLFacadeImplementation instance");
+		
+		
+		    dbManager = new DataAccess();
+		    
+		//dbManager.close();
+
+		
+	}
+	
+    public BLFacadeImplementation(DataAccess da)  {
+		
+		System.out.println("Creating BLFacadeImplementation instance with DataAccess parameter");
+		ConfigXML c=ConfigXML.getInstance();
+		
+		dbManager=da;		
+	}
+    
+    
+    /**
+     * {@inheritDoc}
+     */
+    @WebMethod public List<String> getDepartCities(){
+    	dbManager.open();	
+		
+		 List<String> departLocations=dbManager.getDepartCities();		
+
+		dbManager.close();
+		
+		return departLocations;
+    	
+    }
+    /**
+     * {@inheritDoc}
+     */
+	@WebMethod public List<String> getDestinationCities(String from){
+		dbManager.open();	
+		
+		 List<String> targetCities=dbManager.getArrivalCities(from);		
+
+		dbManager.close();
+		
+		return targetCities;
+	}
+
+	/**
+	 * {@inheritDoc}
+	 */
+   @WebMethod
+   public Ride createRide( String from, String to, Date date, int nPlaces, float price, String driverEmail ) throws RideMustBeLaterThanTodayException, RideAlreadyExistException{
+	   
+		dbManager.open();
+		Ride ride=dbManager.createRide(from, to, date, nPlaces, price, driverEmail);		
+		dbManager.close();
+		return ride;
+   };
+	
+   /**
+    * {@inheritDoc}
+    */
+	@WebMethod 
+	public List<Ride> getRides(String from, String to, Date date){
+		dbManager.open();
+		List<Ride>  rides=dbManager.getRides(from, to, date);
+		dbManager.close();
+		return rides;
+	}
+
+    
+	/**
+	 * {@inheritDoc}
+	 */
+	@WebMethod 
+	public List<Date> getThisMonthDatesWithRides(String from, String to, Date date){
+		dbManager.open();
+		List<Date>  dates=dbManager.getThisMonthDatesWithRides(from, to, date);
+		dbManager.close();
+		return dates;
+	}
+	
+	
+	public void close() {
+		DataAccess dB4oManager=new DataAccess();
+
+		dB4oManager.close();
+
+	}
+	
+	public Driver loginDriver(String username, String password) {
+		dbManager.open();
+		Driver b = dbManager.loginDriver(username,password);
+		dbManager.close();
+		return b;
+	}
+	
+	public User loginUser(String username, String password) {
+		dbManager.open();
+		User u = dbManager.loginUser(username,password);
+		dbManager.close();
+		return u;
+	}
+	
+	public boolean registerDriver(String username, String email, String password) {
+			dbManager.open();
+			boolean b = dbManager.registerDriver(username,email,password);
+			dbManager.close();
+			return b;
+	}
+	
+	
+	public boolean registerUser(String username, String email, String password) {
+			dbManager.open();
+			boolean b = dbManager.registerUser(username,email,password);
+			dbManager.close();
+			return b;
+	}
+	
+	public boolean addRideUser(User user, Integer rideNum, Integer seats) {
+		dbManager.open();
+		boolean b = dbManager.addRideUser(user, rideNum, seats);
+		dbManager.close();
+		return b;
+	}
+	
+	public List<Ride> getRidesByEmail(String email, String type){
+		dbManager.open();
+		List<Ride> l = dbManager.getRidesByEmail(email,type);
+		dbManager.close();
+		return l;
+	}
+	
+	public List<Booking> getBookingByEmail (String email, String type){
+		dbManager.open();
+		List<Booking> l = dbManager.getBookingByEmail(email, type);
+		dbManager.close();
+		return l;
+	}
+	
+	public boolean addBooking(User user, Ride ride, String from, String to ,Integer numSeats, double prize) {
+		dbManager.open();
+		boolean b = dbManager.addBooking(user, ride, from, to, numSeats, prize);
+		dbManager.close();
+		return b;
+	}
+	
+	public Ride findRide(Integer id) {
+		dbManager.open();
+		Ride r = dbManager.findRide(id);
+		dbManager.close();
+		return r;
+	}
+	
+	public void acceptBooking (Integer bookingId) {
+		dbManager.open();
+		dbManager.acceptBooking(bookingId);
+		dbManager.close();
+	}
+	
+	public Double getDriverBalance(String email) {
+		dbManager.open();
+		Double b = dbManager.getDriverBalance(String email);
+		dbManager.close();
+		return b;
+	}
+
+	/**
+	 * {@inheritDoc}
+	 */
+    @WebMethod	
+	 public void initializeBD(){
+    	dbManager.open();
+		dbManager.initializeDB();
+		dbManager.close();
+	}
+
+}
+

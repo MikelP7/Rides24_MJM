@@ -1,5 +1,0 @@
-commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>A\u00F1adida JList en la GUI CreateRide</message>\r\n<message>A\u00F1adida JList en la GUI CreateRide para las paradas</message>\r\n<message>Arreglados bugs varios.</message>\r\n<message>A\u00F1adida la clase &quot;Stop&quot; y lista de paradas a la clase &quot;Ride&quot;</message>\r\n<message>A\u00F1adidos Casos de Uso\: Aceptar/Rechazar Viaje</message>\r\n<message>A\u00F1adido monedero a Users/Drivers. A\u00F1adida clase Booking y actualizado&\#x0A;caso de uso &quot;Visualizar viajes&quot;</message>\r\n<message>Bug JLista arreglado</message>\r\n<message>Bug JList arreglado</message>\r\n<message>Version del proyecto tras completar Iteracion 1.</message>\r\n</messages>
-eclipse.preferences.version=1
-repositories_view_filters=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<FilterCache/>
-resourcehistory_graph_split=500,500
-resourcehistory_rev_split=700,300

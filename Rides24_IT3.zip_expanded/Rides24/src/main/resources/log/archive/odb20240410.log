@@ -1,0 +1,66 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-10 09:20:56 #1 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' is opened by 13352@MSI-M1K3L
+
+[2024-04-10 09:20:57 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-10 09:20:57 #3 type] 
+Type domain.Booking is not enhanced.
+
+[2024-04-10 09:20:57 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-10 09:20:57 #5 type] 
+Type domain.Stop is not enhanced.
+
+[2024-04-10 09:20:57 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-10 09:21:49 #1 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' has been recovered (tr. 15-15)
+
+[2024-04-10 09:21:49 #2 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' is opened by 11088@MSI-M1K3L
+
+[2024-04-10 09:21:49 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-10 09:21:49 #4 type] 
+Type domain.Booking is not enhanced.
+
+[2024-04-10 09:21:49 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-10 09:21:49 #6 type] 
+Type domain.Stop is not enhanced.
+
+[2024-04-10 09:21:49 #7 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-10 09:22:29 #1 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' has been recovered (tr. 16-16)
+
+[2024-04-10 09:22:29 #2 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' is opened by 16016@MSI-M1K3L
+
+[2024-04-10 09:22:29 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-10 09:22:29 #4 type] 
+Type domain.Booking is not enhanced.
+
+[2024-04-10 09:22:29 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-10 09:22:29 #6 type] 
+Type domain.Stop is not enhanced.
+
+[2024-04-10 09:22:29 #7 type] 
+Type domain.User is not enhanced.
+

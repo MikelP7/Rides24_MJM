@@ -1,0 +1,176 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-07 12:31:15 #1 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' is opened by 12468@MSI-M1K3L
+
+[2024-04-07 12:31:15 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-07 12:31:15 #3 type] 
+Type domain.Booking is not enhanced.
+
+[2024-04-07 12:31:15 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-07 12:31:15 #5 type] 
+Type domain.User is not enhanced.
+
+[2024-04-07 12:31:15 #6 type] 
+Type domain.Stop is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-07 23:13:29 #1 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' is opened by 2892@MSI-M1K3L
+
+[2024-04-07 23:13:29 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-07 23:13:29 #3 type] 
+Type domain.Booking is not enhanced.
+
+[2024-04-07 23:13:29 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-07 23:13:29 #5 type] 
+Type domain.User is not enhanced.
+
+[2024-04-07 23:13:29 #6 type] 
+Type domain.Stop is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-07 23:41:33 #1 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' is opened by 3168@MSI-M1K3L
+
+[2024-04-07 23:41:33 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-07 23:41:33 #3 type] 
+Type domain.Booking is not enhanced.
+
+[2024-04-07 23:41:33 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-07 23:41:33 #5 type] 
+Type domain.User is not enhanced.
+
+[2024-04-07 23:41:33 #6 type] 
+Type domain.Stop is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-07 23:42:23 #1 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' is opened by 18860@MSI-M1K3L
+
+[2024-04-07 23:42:23 #2 type.registry] 
+New type domain.Driver
+
+[2024-04-07 23:42:23 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-07 23:42:23 #4 type.registry] 
+New type domain.Booking
+
+[2024-04-07 23:42:23 #5 type.registry] 
+New type domain.Ride
+
+[2024-04-07 23:42:23 #6 type] 
+Type domain.Booking is not enhanced.
+
+[2024-04-07 23:42:23 #7 type.registry] 
+New type domain.User
+
+[2024-04-07 23:42:23 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-07 23:42:23 #9 type.registry] 
+New type domain.Stop
+
+[2024-04-07 23:42:23 #10 type] 
+Type domain.User is not enhanced.
+
+[2024-04-07 23:42:23 #11 type] 
+Type domain.Stop is not enhanced.
+
+[2024-04-07 23:42:23 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-04-07 23:42:23 #13 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-04-07 23:42:23 #14 type.registry] 
+New type java.util.Vector<domain.Booking>
+
+[2024-04-07 23:42:23 #15 type.registry] 
+New type java.util.Vector<domain.Stop>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-07 23:42:33 #1 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' has been recovered (tr. 1-8)
+
+[2024-04-07 23:42:33 #2 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' is opened by 300@MSI-M1K3L
+
+[2024-04-07 23:42:33 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-07 23:42:33 #4 type] 
+Type domain.Booking is not enhanced.
+
+[2024-04-07 23:42:33 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-07 23:42:33 #6 type] 
+Type domain.User is not enhanced.
+
+[2024-04-07 23:42:33 #7 type] 
+Type domain.Stop is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-07 23:43:30 #1 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' has been recovered (tr. 9-9)
+
+[2024-04-07 23:43:31 #2 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' is opened by 11892@MSI-M1K3L
+
+[2024-04-07 23:43:31 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-07 23:43:31 #4 type] 
+Type domain.Booking is not enhanced.
+
+[2024-04-07 23:43:31 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-07 23:43:31 #6 type] 
+Type domain.User is not enhanced.
+
+[2024-04-07 23:43:31 #7 type] 
+Type domain.Stop is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-04-07 23:46:16 #1 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' has been recovered (tr. 10-10)
+
+[2024-04-07 23:46:16 #2 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' is opened by 15956@MSI-M1K3L
+
+[2024-04-07 23:46:16 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-04-07 23:46:16 #4 type] 
+Type domain.Booking is not enhanced.
+
+[2024-04-07 23:46:16 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-04-07 23:46:16 #6 type] 
+Type domain.User is not enhanced.
+
+[2024-04-07 23:46:16 #7 type] 
+Type domain.Stop is not enhanced.
+

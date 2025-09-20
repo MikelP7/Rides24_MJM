@@ -1,0 +1,41 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-15 12:51:02 #1 store] 
+Database 'C:\Users\mikel\git\repository\Rides24\src\main\resources\rides.temp' is opened by 18640@MSI-M1K3L
+
+[2024-03-15 12:51:03 #2 type.registry] 
+New type domain.Driver
+
+[2024-03-15 12:51:03 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-15 12:51:03 #4 type.registry] 
+New type domain.Booking
+
+[2024-03-15 12:51:03 #5 type.registry] 
+New type domain.Ride
+
+[2024-03-15 12:51:03 #6 type] 
+Type domain.Booking is not enhanced.
+
+[2024-03-15 12:51:03 #7 type.registry] 
+New type domain.User
+
+[2024-03-15 12:51:03 #8 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-15 12:51:03 #9 type] 
+Type domain.User is not enhanced.
+
+[2024-03-15 12:51:03 #10 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-03-15 12:51:03 #11 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2024-03-15 12:51:03 #12 type.registry] 
+New type java.util.Vector<domain.Booking>
+
+[2024-03-15 12:51:03 #13 type.registry] 
+New type java.util.Vector<java.lang.String>
+

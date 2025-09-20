@@ -1,0 +1,979 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 00:01:38 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 12128@MSI-M1K3L
+
+[2024-03-04 00:01:38 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 00:01:38 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 00:01:38 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 00:02:38 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 6088@MSI-M1K3L
+
+[2024-03-04 00:02:38 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 00:02:38 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 00:02:38 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 10:41:05 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' has been recovered (tr. 14-14)
+
+[2024-03-04 10:41:05 #2 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 18780@MSI-M1K3L
+
+[2024-03-04 10:41:05 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 10:41:05 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 10:41:05 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 10:41:22 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 11156@MSI-M1K3L
+
+[2024-03-04 10:41:22 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 10:41:22 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 10:41:22 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 10:43:04 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' has been recovered (tr. 15-15)
+
+[2024-03-04 10:43:04 #2 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 6024@MSI-M1K3L
+
+[2024-03-04 10:43:04 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 10:43:04 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 10:43:04 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 10:44:13 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 12444@MSI-M1K3L
+
+[2024-03-04 10:44:13 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 10:44:13 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 10:44:13 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 10:44:56 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 336@MSI-M1K3L
+
+[2024-03-04 10:44:56 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 10:44:56 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 10:44:56 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 10:54:28 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' has been recovered (tr. 16-16)
+
+[2024-03-04 10:54:28 #2 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 14916@MSI-M1K3L
+
+[2024-03-04 10:54:28 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 10:54:28 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 10:54:28 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 10:56:04 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 18536@MSI-M1K3L
+
+[2024-03-04 10:56:04 #2 type.registry] 
+New type domain.Driver
+
+[2024-03-04 10:56:04 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 10:56:04 #4 type.registry] 
+New type domain.Ride
+
+[2024-03-04 10:56:04 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 10:56:04 #6 type.registry] 
+New type domain.User
+
+[2024-03-04 10:56:04 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-03-04 10:56:04 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-03-04 10:56:04 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 10:58:41 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 17716@MSI-M1K3L
+
+[2024-03-04 10:58:42 #2 type.registry] 
+New type domain.Driver
+
+[2024-03-04 10:58:42 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 10:58:42 #4 type.registry] 
+New type domain.Ride
+
+[2024-03-04 10:58:42 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 10:58:42 #6 type.registry] 
+New type domain.User
+
+[2024-03-04 10:58:42 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-03-04 10:58:42 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-03-04 10:58:42 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 11:01:00 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 13804@MSI-M1K3L
+
+[2024-03-04 11:01:00 #2 type.registry] 
+New type domain.Driver
+
+[2024-03-04 11:01:00 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 11:01:00 #4 type.registry] 
+New type domain.Ride
+
+[2024-03-04 11:01:00 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 11:01:00 #6 type.registry] 
+New type domain.User
+
+[2024-03-04 11:01:00 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-03-04 11:01:00 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-03-04 11:01:00 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 11:02:39 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 2720@MSI-M1K3L
+
+[2024-03-04 11:02:39 #2 type.registry] 
+New type domain.Driver
+
+[2024-03-04 11:02:39 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 11:02:39 #4 type.registry] 
+New type domain.Ride
+
+[2024-03-04 11:02:39 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 11:02:39 #6 type.registry] 
+New type domain.User
+
+[2024-03-04 11:02:39 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-03-04 11:02:39 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-03-04 11:02:39 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 11:06:32 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 14680@MSI-M1K3L
+
+[2024-03-04 11:06:32 #2 type.registry] 
+New type domain.Driver
+
+[2024-03-04 11:06:32 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 11:06:32 #4 type.registry] 
+New type domain.Ride
+
+[2024-03-04 11:06:32 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 11:06:32 #6 type.registry] 
+New type domain.User
+
+[2024-03-04 11:06:32 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-03-04 11:06:32 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-03-04 11:06:32 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 11:07:16 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 8388@MSI-M1K3L
+
+[2024-03-04 11:07:17 #2 type.registry] 
+New type domain.Driver
+
+[2024-03-04 11:07:17 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 11:07:17 #4 type.registry] 
+New type domain.Ride
+
+[2024-03-04 11:07:17 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 11:07:17 #6 type.registry] 
+New type domain.User
+
+[2024-03-04 11:07:17 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-03-04 11:07:17 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-03-04 11:07:17 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 11:07:51 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 19044@MSI-M1K3L
+
+[2024-03-04 11:07:51 #2 type.registry] 
+New type domain.Driver
+
+[2024-03-04 11:07:51 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 11:07:51 #4 type.registry] 
+New type domain.Ride
+
+[2024-03-04 11:07:51 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 11:07:51 #6 type.registry] 
+New type domain.User
+
+[2024-03-04 11:07:51 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-03-04 11:07:51 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-03-04 11:07:51 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 11:08:37 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 11044@MSI-M1K3L
+
+[2024-03-04 11:08:37 #2 type.registry] 
+New type domain.Driver
+
+[2024-03-04 11:08:37 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 11:08:37 #4 type.registry] 
+New type domain.Ride
+
+[2024-03-04 11:08:37 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 11:08:37 #6 type.registry] 
+New type domain.User
+
+[2024-03-04 11:08:37 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-03-04 11:08:37 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-03-04 11:08:37 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 11:10:12 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 9232@MSI-M1K3L
+
+[2024-03-04 11:10:12 #2 type.registry] 
+New type domain.Driver
+
+[2024-03-04 11:10:12 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 11:10:12 #4 type.registry] 
+New type domain.Ride
+
+[2024-03-04 11:10:12 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 11:10:12 #6 type.registry] 
+New type domain.User
+
+[2024-03-04 11:10:12 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-03-04 11:10:12 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-03-04 11:10:12 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 11:14:50 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 19436@MSI-M1K3L
+
+[2024-03-04 11:14:50 #2 type.registry] 
+New type domain.Driver
+
+[2024-03-04 11:14:50 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 11:14:50 #4 type.registry] 
+New type domain.Ride
+
+[2024-03-04 11:14:50 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 11:14:50 #6 type.registry] 
+New type domain.User
+
+[2024-03-04 11:14:50 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-03-04 11:14:50 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-03-04 11:14:50 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 11:15:00 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' has been recovered (tr. 1-7)
+
+[2024-03-04 11:15:00 #2 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 12132@MSI-M1K3L
+
+[2024-03-04 11:15:00 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 11:15:00 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 11:15:00 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 11:24:53 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 13048@MSI-M1K3L
+
+[2024-03-04 11:24:53 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 11:24:53 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 11:24:53 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 11:51:00 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 13236@MSI-M1K3L
+
+[2024-03-04 11:51:00 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 11:51:00 #3 type.registry] 
+New type java.util.HashMap<domain.User,domain.Ride>
+
+[2024-03-04 11:51:00 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 11:51:00 #5 type] 
+Type domain.User is not enhanced.
+
+[2024-03-04 11:51:07 #6 type.registry] 
+New type java.util.HashMap<java.lang.Object,java.lang.Object>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 12:24:00 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 13236@MSI-M1K3L
+
+[2024-03-04 12:24:00 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 12:24:00 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 12:24:00 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 12:25:10 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' has been recovered (tr. 12-12)
+
+[2024-03-04 12:25:10 #2 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 15344@MSI-M1K3L
+
+[2024-03-04 12:25:10 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 12:25:10 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 12:25:10 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 12:27:16 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 10600@MSI-M1K3L
+
+[2024-03-04 12:27:16 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 12:27:16 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 12:27:16 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 12:31:20 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 18572@MSI-M1K3L
+
+[2024-03-04 12:31:20 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 12:31:20 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 12:31:20 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 12:51:37 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 2216@MSI-M1K3L
+
+[2024-03-04 12:51:37 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 12:51:37 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 12:51:37 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 12:52:48 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 8000@MSI-M1K3L
+
+[2024-03-04 12:52:48 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 12:52:48 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 12:52:48 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 12:59:48 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 16556@MSI-M1K3L
+
+[2024-03-04 12:59:48 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 12:59:48 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 12:59:48 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 13:04:03 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 17272@MSI-M1K3L
+
+[2024-03-04 13:04:03 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 13:04:03 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 13:04:03 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 13:04:10 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 8304@MSI-M1K3L
+
+[2024-03-04 13:04:11 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 13:04:11 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 13:04:11 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 13:05:45 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 12508@MSI-M1K3L
+
+[2024-03-04 13:05:45 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 13:05:45 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 13:05:45 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 13:06:37 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 1600@MSI-M1K3L
+
+[2024-03-04 13:06:37 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 13:06:37 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 13:06:37 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 13:09:22 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 6508@MSI-M1K3L
+
+[2024-03-04 13:09:23 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 13:09:23 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 13:09:23 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 13:10:11 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 13188@MSI-M1K3L
+
+[2024-03-04 13:10:11 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 13:10:11 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 13:10:11 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 13:12:35 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 10516@MSI-M1K3L
+
+[2024-03-04 13:12:35 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 13:12:35 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 13:12:35 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 13:16:41 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 15344@MSI-M1K3L
+
+[2024-03-04 13:16:41 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 13:16:41 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 13:16:41 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 13:18:29 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 10892@MSI-M1K3L
+
+[2024-03-04 13:18:30 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 13:18:30 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 13:18:30 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 21:58:02 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 2060@MSI-M1K3L
+
+[2024-03-04 21:58:02 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 21:58:02 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 21:58:02 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 21:58:48 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 12728@MSI-M1K3L
+
+[2024-03-04 21:58:48 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 21:58:48 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 21:58:48 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 21:59:08 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 15000@MSI-M1K3L
+
+[2024-03-04 21:59:09 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 21:59:09 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 21:59:09 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:01:08 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 1976@MSI-M1K3L
+
+[2024-03-04 22:01:08 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:01:08 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:01:08 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:01:59 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 15276@MSI-M1K3L
+
+[2024-03-04 22:01:59 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:01:59 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:01:59 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:03:01 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 7156@MSI-M1K3L
+
+[2024-03-04 22:03:01 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:03:01 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:03:01 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:05:48 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 18380@MSI-M1K3L
+
+[2024-03-04 22:05:48 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:05:48 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:05:48 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:10:49 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 11116@MSI-M1K3L
+
+[2024-03-04 22:10:49 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:10:49 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:10:49 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:11:51 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 13640@MSI-M1K3L
+
+[2024-03-04 22:11:51 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:11:51 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:11:51 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:12:26 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 9392@MSI-M1K3L
+
+[2024-03-04 22:12:26 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:12:26 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:12:26 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:14:08 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' has been recovered (tr. 15-15)
+
+[2024-03-04 22:14:08 #2 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 13064@MSI-M1K3L
+
+[2024-03-04 22:14:08 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:14:08 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:14:08 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:15:25 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' has been recovered (tr. 16-16)
+
+[2024-03-04 22:15:25 #2 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 1864@MSI-M1K3L
+
+[2024-03-04 22:15:25 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:15:25 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:15:25 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:16:04 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 13552@MSI-M1K3L
+
+[2024-03-04 22:16:04 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:16:04 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:16:04 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:17:57 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 16392@MSI-M1K3L
+
+[2024-03-04 22:17:57 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:17:57 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:17:57 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:18:52 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 18488@MSI-M1K3L
+
+[2024-03-04 22:18:52 #2 type.registry] 
+New type domain.Driver
+
+[2024-03-04 22:18:52 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:18:52 #4 type.registry] 
+New type domain.Ride
+
+[2024-03-04 22:18:52 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:18:52 #6 type.registry] 
+New type domain.User
+
+[2024-03-04 22:18:52 #7 type] 
+Type domain.User is not enhanced.
+
+[2024-03-04 22:18:52 #8 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2024-03-04 22:18:52 #9 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:24:35 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' has been recovered (tr. 1-7)
+
+[2024-03-04 22:24:35 #2 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 11044@MSI-M1K3L
+
+[2024-03-04 22:24:36 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:24:36 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:24:36 #5 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 22:38:23 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 1228@MSI-M1K3L
+
+[2024-03-04 22:38:23 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 22:38:23 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 22:38:23 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 23:29:06 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 12884@MSI-M1K3L
+
+[2024-03-04 23:29:06 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 23:29:06 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 23:29:06 #4 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2024-03-04 23:34:56 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Segundo\Segundo Cuatri\IS\Iteraciones\Iteracion 1\Rides24-master(2).zip_expanded\Rides24-master\src\main\resources\rides.temp' is opened by 11116@MSI-M1K3L
+
+[2024-03-04 23:34:56 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2024-03-04 23:34:56 #3 type] 
+Type domain.Ride is not enhanced.
+
+[2024-03-04 23:34:56 #4 type] 
+Type domain.User is not enhanced.
+

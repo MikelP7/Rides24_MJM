@@ -1,5 +1,5 @@
 
-1.0+mikelpallin_monopolymikelpallin_rides24-is2JavaFrontend"1758901004056*java2.BÆ
+1.0mikelpallin_rides24-is2JavaFrontend"1759157530490*java2.BÆ
 #
 src/main/java/gui/MainGUI.java2
 	
@@ -60,13 +60,13 @@ $
 
 appFacadeInterface39
 
-businessLogic.BLFacade41
+businesslogic.BLFacade41
 
 gui.MainGUI.YourRides43
 
 	YourRides44
 <
-6gui.MainGUI#getBusinessLogic()LbusinessLogic/BLFacade;46
+6gui.MainGUI#getBusinessLogic()Lbusinesslogic/BLFacade;46
 
 method47
 
@@ -77,7 +77,7 @@ $
 
 references50
 >
-8gui.MainGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V52
+8gui.MainGUI#setBussinessLogic(Lbusinesslogic/BLFacade;)V52
 
 setBussinessLogic53
 
@@ -131,7 +131,7 @@ $gui.MainGUI#<init>(Ldomain/Driver;)V87
 
 gui.LoginGUI90
 =
-7gui.LoginGUI#getBusinessLogic()LbusinessLogic/BLFacade;92
+7gui.LoginGUI#getBusinessLogic()Lbusinesslogic/BLFacade;92
 
 gui.MainGUI$194
 B
@@ -199,6 +199,21 @@ paintAgain145J
 
 5	
 576jÂ
+
+91
+919222
+A
+51;
+515247 *
+1* *(28:5B
+
+
+11
+12
+
+
+13
+53
 A
 62;
 626317 *
@@ -224,9 +239,6 @@ H
 
 13
 97
-
-40
-404122
 
 118
 11811922
@@ -601,6 +613,9 @@ A
 
 13
 19
+
+40
+404122
 A
 77;
 777817 *
@@ -613,18 +628,6 @@ A
 
 13
 79
-A
-51;
-515247 *
-1* *(28:5B
-
-
-11
-12
-
-
-13
-53
 A
 71;
 717217 *
@@ -664,9 +667,6 @@ A
 
 124
 12412522
-
-91
-919222
 A
 45;
 454647 *

@@ -1,79 +1,130 @@
 
-jbusinessLogic.BLFacadeImplementation#getRidesByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;Ã
-¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.java˜ ˜(""1*—	
-1
-™ ™(‡
-„
-
-™ ™(
+sbusinesslogic.BLFacadeImplementation#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;Á
+¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businesslogic/BLFacadeImplementation.javaY Y("startingBlock*®
+startingBlockY Y(>
+
+X X(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+fromjava.lang.StringX
+V
+Y# Y('
+fromjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6
+}
+X X(
+%7"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+tojava.lang.StringV
+T
+Y0 Y(2
+tojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%7
+}
+X X(
+%8"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+datejava.util.DateV
+T
+Y9 Y(=
+datejava.util.Date"__annotation*"
+
+__unknown_file (
+
+%8*
+1*Ò	
+1Z Z(…
+‚
+Z Z(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager|z
-
-™ ™(
+$businesslogic.BLFacadeImplementation"
+	dbManagerzx
+Z Z(
 
 %1void"dataAccess.DataAccess#open()V*9
 
 __unknown_file (
 
-%0dataAccess.DataAccess2open()‡
-„
-
-š š(
+%0dataAccess.DataAccess2open()…
+‚
+[ [(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManageråâ
-
-š š(6
-%3java.util.List"[dataAccess.DataAccess#getRidesByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*9
+$businesslogic.BLFacadeImplementation"
+	dbManager¨¥
+[ [(6
+%3java.util.List"ddataAccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*7
-
-__unknown_file (
-
-emailjava.lang.String*6
+%2dataAccess.DataAccess*6
 
 __unknown_file (
 
-typejava.lang.String25getRidesByEmail(Ljava/lang/String;Ljava/lang/String;)]
-[
-
-š š(7
-ljava.util.List"__id*2
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String*4
+
+__unknown_file (
+
+datejava.util.Date2>getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)_
+]
+[ [(7
+ridesjava.util.List"__id*2
 
 __unknown_file (
 
-%3java.util.List‡
-„
-
-› ›(
+%3java.util.List…
+‚
+\ \(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-› ›(
+$businesslogic.BLFacadeImplementation"
+	dbManager|z
+\ \(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"#
-
-œ œ(
-
-ljava.util.List:'
-
-˜# ˜(0
-emailjava.lang.String:&
-
-˜1 ˜(<
-typejava.lang.StringB(&
-$businessLogic.BLFacadeImplementationH
+%4dataAccess.DataAccess2close()"%
+] ](
+
+ridesjava.util.List:$
+Y Y((
+fromjava.lang.String:"
+Y) Y(3
+tojava.lang.String:"
+Y4 Y(=
+datejava.util.DateB(&
+$businesslogic.BLFacadeImplementationH

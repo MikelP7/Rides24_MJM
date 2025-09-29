@@ -1,18 +1,18 @@
 
-PbusinessLogic.BLFacadeImplementation#getRideStops(Ldomain/Ride;)Ljava/util/List;Ã
-¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaÜ Ü("1*¥
+¢businesslogic.BLFacadeImplementation#addBooking(Ldomain/User;Ldomain/Ride;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Double;Ldomain/Stop;)ZÃ
+¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businesslogic/BLFacadeImplementation.java¦ ¦("1*®
 1
-Ý Ý(‡
+§ §(‡
 „
 
-Ý Ý(
+§ §(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
+$businesslogic.BLFacadeImplementation"
 	dbManager|z
 
-Ý Ý(
+§ §(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -21,15 +21,15 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()‡
 „
 
-Þ Þ(
+¨ ¨(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManageróð
+$businesslogic.BLFacadeImplementation"
+	dbManagerêç
 
-Þ Þ(-
-%3java.util.List"AdataAccess.DataAccess#getRideStops(Ldomain/Ride;)Ljava/util/List;*9
+¨ ¨(O
+%3boolean"“dataAccess.DataAccess#addBooking(Ldomain/User;Ldomain/Ride;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Double;Ldomain/Stop;)Z*9
 
 __unknown_file (
 
@@ -37,36 +37,69 @@ $businessLogic.BLFacadeImplementation"
 
 __unknown_file (
 
-ridedomain.Ride2getRideStops(Ldomain/Ride;)]
-[
-
-Þ Þ(.
-ljava.util.List"__id*2
+userdomain.User*1
 
-__unknown_file (
-
-%3java.util.List‡
+__unknown_file (
+
+ridedomain.Ride*6
+
+__unknown_file (
+
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String*;
+
+__unknown_file (
+
+numSeatsjava.lang.Integer*7
+
+__unknown_file (
+
+pricejava.lang.Double*1
+
+__unknown_file (
+
+stopdomain.Stop2|addBooking(Ldomain/User;Ldomain/Ride;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Double;Ldomain/Stop;)‡
 „
 
-ß ß(
+© ©(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
+$businesslogic.BLFacadeImplementation"
 	dbManager~|
 
-ß ß(
+© ©(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"#
+%4dataAccess.DataAccess2close()"
 
-à à(
-
-ljava.util.List:!
+ª ª(
+"":!
 
-Ü! Ü(*
-ridedomain.RideB(&
-$businessLogic.BLFacadeImplementationH
+¦ ¦(%
+userdomain.User:!
+
+¦& ¦(0
+ridedomain.Ride:&
+
+¦1 ¦(=
+fromjava.lang.String:$
+
+¦> ¦(I
+tojava.lang.String:+
+
+¦I ¦(Z
+numSeatsjava.lang.Integer:'
+
+¦[ ¦(h
+pricejava.lang.Double:!
+
+¦i ¦(r
+stopdomain.StopB(&
+$businesslogic.BLFacadeImplementationHX

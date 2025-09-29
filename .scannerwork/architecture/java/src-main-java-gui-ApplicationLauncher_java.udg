@@ -1,5 +1,5 @@
 
-1.0+mikelpallin_monopolymikelpallin_rides24-is2JavaFrontend"1758901002242*java2.B”
+1.0mikelpallin_rides24-is2JavaFrontend"1759157529141*java2.B”
 /
 *src/main/java/gui/ApplicationLauncher.java2
 	
@@ -52,13 +52,13 @@ D
 
 gui.LoginGUI32
 
-businessLogic.BLFacade34
+businesslogic.BLFacade34
 5
 /configuration.ConfigXML#isBusinessLogicLocal()Z36
 
 dataAccess.DataAccess38
 *
-$businessLogic.BLFacadeImplementation40
+$businesslogic.BLFacadeImplementation40
 F
 @configuration.ConfigXML#getBusinessLogicNode()Ljava/lang/String;42
 F
@@ -68,7 +68,7 @@ F
 %
 Recovered#typeBindingLService;048
 ?
-9gui.LoginGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V50J
+9gui.LoginGUI#setBussinessLogic(Lbusinesslogic/BLFacade;)V50J
 
 1
 12
@@ -80,17 +80,20 @@ F
 5	
 576j„
 
+33
+333421
+
 39
 394021
+
+49
+495021
 
 29
 293021
 
 41
 414221
-
-49
-495021
 
 47
 474821
@@ -106,9 +109,6 @@ A
 
 13
 18
-
-33
-333421
 
 31
 313221

@@ -1,5 +1,5 @@
 
-1.0+mikelpallin_monopolymikelpallin_rides24-is2JavaFrontend"1758901004555*java2.BÅ
+1.0mikelpallin_rides24-is2JavaFrontend"1759157530920*java2.BÅ
 '
 "src/main/java/gui/MainUserGUI.java2
 	
@@ -65,9 +65,9 @@
 
 appFacadeInterface42
 
-businessLogic.BLFacade44
+businesslogic.BLFacade44
 @
-:gui.MainUserGUI#getBusinessLogic()LbusinessLogic/BLFacade;46
+:gui.MainUserGUI#getBusinessLogic()Lbusinesslogic/BLFacade;46
 
 method47
 
@@ -78,7 +78,7 @@
 
 references50
 B
-<gui.MainUserGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V52
+<gui.MainUserGUI#setBussinessLogic(Lbusinesslogic/BLFacade;)V52
 
 setBussinessLogic53
 
@@ -124,7 +124,7 @@ B
 
 gui.LoginGUI84
 =
-7gui.LoginGUI#getBusinessLogic()LbusinessLogic/BLFacade;86
+7gui.LoginGUI#getBusinessLogic()Lbusinesslogic/BLFacade;86
 
 gui.MainUserGUI$188
 F
@@ -180,6 +180,9 @@ paintAgain127J
 
 5	
 576jÒ
+
+85
+858622
 A
 25;
 252617 *
@@ -255,6 +258,18 @@ A
 
 11
 60
+A
+45;
+454647 *
+1& &(28:5B
+
+
+11
+12
+
+
+13
+48
 9
 1022
 10210310 *
@@ -287,9 +302,6 @@ A
 
 11
 60
-
-43
-434422
 6
 870
 878810 *
@@ -370,6 +382,18 @@ A
 120
 12012122
 A
+51;
+515247 *
+1* *(28:5B
+
+
+11
+12
+
+
+13
+53
+A
 68;
 686917 *
 15 5(	28:5B
@@ -381,6 +405,9 @@ A
 
 13
 70
+
+43
+434422
 A
 65;
 656617 *
@@ -488,21 +515,6 @@ A
 13
 36
 A
-51;
-515247 *
-1* *(28:5B
-
-
-11
-12
-
-
-13
-53
-
-85
-858622
-A
 40;
 404117 *
 1$ $(28:5B
@@ -527,18 +539,6 @@ H
 
 13
 91
-A
-45;
-454647 *
-1& &(28:5B
-
-
-11
-12
-
-
-13
-48
 E
 100>
 10010147 *

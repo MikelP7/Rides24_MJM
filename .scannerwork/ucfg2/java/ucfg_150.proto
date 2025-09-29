@@ -1,18 +1,18 @@
 
-ybusinessLogic.BLFacadeImplementation#getRidesByStop(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;Ã
-¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaë ë(!"1*ð	
+Obusinesslogic.BLFacadeImplementation#findRide(Ljava/lang/Integer;)Ldomain/Ride;Ã
+¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businesslogic/BLFacadeImplementation.java´ ´("1*ž
 1
-ì ì(‡
+µ µ(‡
 „
 
-ì ì(
+µ µ(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
+$businesslogic.BLFacadeImplementation"
 	dbManager|z
 
-ì ì(
+µ µ(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -21,66 +21,52 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()‡
 „
 
-í í(
+¶ ¶(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager¶³
+$businesslogic.BLFacadeImplementation"
+	dbManagerõò
 
-í í(<
-%3java.util.List"jdataAccess.DataAccess#getRidesByStop(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;*9
+¶ ¶(!
+%3domain.Ride"@dataAccess.DataAccess#findRide(Ljava/lang/Integer;)Ldomain/Ride;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*6
+%2dataAccess.DataAccess*5
 
-__unknown_file (
-
-fromjava.lang.String*4
-
-__unknown_file (
-
-tojava.lang.String*4
-
-__unknown_file (
-
-datejava.util.Date2DgetRidesByStop(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)a
-_
+__unknown_file (
+
+idjava.lang.Integer2findRide(Ljava/lang/Integer;)W
+U
 
-í í(=
-ridesjava.util.List"__id*2
+¶ ¶("
+rdomain.Ride"__id*/
 
-__unknown_file (
-
-%3java.util.List‡
+__unknown_file (
+
+%3domain.Ride‡
 „
 
-î î(
+· ·(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
+$businesslogic.BLFacadeImplementation"
 	dbManager~|
 
-î î(
+· ·(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"'
+%4dataAccess.DataAccess2close()" 
 
-ï ï(
-
-ridesjava.util.List:&
+¸ ¸(
+
+rdomain.Ride:%
 
-ë" ë(.
-fromjava.lang.String:$
-
-ë/ ë(9
-tojava.lang.String:$
-
-ë: ë(C
-datejava.util.DateB(&
-$businessLogic.BLFacadeImplementationH
+´ ´( 
+idjava.lang.IntegerB(&
+$businesslogic.BLFacadeImplementationH

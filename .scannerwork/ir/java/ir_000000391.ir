@@ -1,13 +1,4 @@
-
-
-0int!this) )("domain.Driver%email) )("java.lang.String(password) )(,"java.lang.String$name). )(9"java.lang.String"¶'
-%
-* *("#set-field# email:*
-(
-+ +("#set-field# password:&
-$
-, ,("#set-field# name:)
-'
-- -(	"#set-field# balance:
-
-. .(*ŸC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/domain/Driver.java
+!this1 1("domain.Driver"J8
+6
+2	 2("#get-field# email:Bjava.lang.String
+2 2(*ŸC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/domain/Driver.java

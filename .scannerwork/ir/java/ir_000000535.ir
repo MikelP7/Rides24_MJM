@@ -1,25 +1,3 @@
-
-";"java.lang.String"thisx x("domain.Booking"ÿ=
-;
-y	 y("#get-field# BookingId:Bjava.lang.Integer2
-0
-y y("#get-field# ride:Bdomain.Ride2
-0
-y  y($"#get-field# user:Bdomain.User6
-4
-y) y(/"#get-field# driver:Bdomain.Driver7
-5
-y4 y(8"#get-field# from:Bjava.lang.String5
-3
-y= y(?"#get-field# to:Bjava.lang.String9
-7
-yD y(I	"#get-field# seats:Bjava.lang.Integer8
-6
-yN y(S
-"#get-field# price:Bjava.lang.Double=
-;
-yX y(a"#get-field# accepeted:Bjava.lang.IntegerC
-A
-y	 y(a"	#binop +#2+:	
-Bjava.lang.String
-y y(b*†C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/domain/Booking.java
+this	 	("domain.Stop"
+
+ Z(*ùC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/domain/Stop.java

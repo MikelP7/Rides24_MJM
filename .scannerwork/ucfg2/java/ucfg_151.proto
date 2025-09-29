@@ -1,18 +1,18 @@
 
-`businessLogic.BLFacadeImplementation#getStopsAndDestinations(Ljava/lang/String;)Ljava/util/List;Ã
-¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaò ò(,"1*Ò
+Ibusinesslogic.BLFacadeImplementation#acceptBooking(Ljava/lang/Integer;F)ZÃ
+¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businesslogic/BLFacadeImplementation.java» »("1*à
 1
-ó ó(‡
+¼ ¼(‡
 „
 
-ó ó(
+¼ ¼(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
+$businesslogic.BLFacadeImplementation"
 	dbManager|z
 
-ó ó(
+¼ ¼(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -21,52 +21,49 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()‡
 „
 
-ô ô( 
+½ ½(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager˜•
+$businesslogic.BLFacadeImplementation"
+	dbManagerœ™
 
-ô ô(>
-%3java.util.List"QdataAccess.DataAccess#getStopsAndDestinations(Ljava/lang/String;)Ljava/util/List;*9
+½ ½(7
+%3boolean":dataAccess.DataAccess#acceptBooking(Ljava/lang/Integer;F)Z*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*6
+%2dataAccess.DataAccess*<
 
-__unknown_file (
+__unknown_file ( 
+
+	bookingIdjava.lang.Integer*"
 
-fromjava.lang.String2+getStopsAndDestinations(Ljava/lang/String;)a
-_
-
-ô ô(?
-namesjava.util.List"__id*2
-
-__unknown_file (
-
-%3java.util.List‡
+__unknown_file (
+""2#acceptBooking(Ljava/lang/Integer;F)‡
 „
 
-õ õ(
+¾ ¾(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
+$businesslogic.BLFacadeImplementation"
 	dbManager~|
 
-õ õ(
+¾ ¾(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"'
+%4dataAccess.DataAccess2close()"
 
-ö ö(
-
-namesjava.util.List:&
+¿ ¿(
+"":,
 
-ò- ò(8
-fromjava.lang.StringB(&
-$businessLogic.BLFacadeImplementationH
+» »(1
+	bookingIdjava.lang.Integer: 
+
+__unknown_file (
+""B(&
+$businesslogic.BLFacadeImplementationHX

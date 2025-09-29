@@ -1,4 +1,5 @@
-this< <("domain.User"A/
--
-=	 =("#get-field# balance:Bfloat
-= =(*C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/domain/User.java
+this@ @("domain.Userbalance@ @(%"float"9)
+'
+A A("#set-field# balance:
+
+B B(*C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/domain/User.java

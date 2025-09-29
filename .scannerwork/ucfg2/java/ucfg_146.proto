@@ -1,18 +1,18 @@
 
-CbusinessLogic.BLFacadeImplementation#getStopNames()Ljava/util/List;Ã
-¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaÏ Ï(!"1*Ø
+jbusinesslogic.BLFacadeImplementation#getRidesByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;Ã
+¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businesslogic/BLFacadeImplementation.java˜ ˜(""1*—	
 1
-Ð Ð(‡
+™ ™(‡
 „
 
-Ð Ð(
+™ ™(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
+$businesslogic.BLFacadeImplementation"
 	dbManager|z
 
-Ð Ð(
+™ ™(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -21,22 +21,30 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()‡
 „
 
-Ñ Ñ(
+š š(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager¦£
+$businesslogic.BLFacadeImplementation"
+	dbManageråâ
 
-Ñ Ñ(+
-%3java.util.List"4dataAccess.DataAccess#getStopNames()Ljava/util/List;*9
+š š(6
+%3java.util.List"[dataAccess.DataAccess#getRidesByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess2getStopNames()]
+%2dataAccess.DataAccess*7
+
+__unknown_file (
+
+emailjava.lang.String*6
+
+__unknown_file (
+
+typejava.lang.String25getRidesByEmail(Ljava/lang/String;Ljava/lang/String;)]
 [
 
-Ñ Ñ(,
+š š(7
 ljava.util.List"__id*2
 
 __unknown_file (
@@ -44,14 +52,14 @@ $businessLogic.BLFacadeImplementation"
 %3java.util.List‡
 „
 
-Ò Ò(
+› ›(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
+$businesslogic.BLFacadeImplementation"
 	dbManager~|
 
-Ò Ò(
+› ›(
 
 %5void"dataAccess.DataAccess#close()V*9
 
@@ -59,7 +67,13 @@ $businessLogic.BLFacadeImplementation"
 
 %4dataAccess.DataAccess2close()"#
 
-Ó Ó(
+œ œ(
 
-ljava.util.ListB(&
-$businessLogic.BLFacadeImplementationH
+ljava.util.List:'
+
+˜# ˜(0
+emailjava.lang.String:&
+
+˜1 ˜(<
+typejava.lang.StringB(&
+$businesslogic.BLFacadeImplementationH

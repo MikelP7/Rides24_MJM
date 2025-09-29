@@ -13,6 +13,8 @@ import javax.swing.event.ChangeListener;
 import businesslogic.*;
 
 import javax.swing.JToolBar;
+import javax.swing.WindowConstants;
+
 import java.awt.GridLayout;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
@@ -60,7 +62,7 @@ public class LoginGUI extends JFrame {
 	
 	public LoginGUI() {
 		setTitle("Login");
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		setBounds(100, 100, 523, 440);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));

@@ -1,5 +1,5 @@
 
-1.0+mikelpallin_monopolymikelpallin_rides24-is2JavaFrontend"1758901003456*java2.Bï
+1.0mikelpallin_rides24-is2JavaFrontend"1759157530096*java2.Bï
 /
 *src/main/java/gui/QueryRidesDriverGUI.java2
 	
@@ -94,7 +94,7 @@ Ogui.QueryRidesDriverGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)V
 
 unknown61
 
-businessLogic.BLFacade63
+businesslogic.BLFacade63
 
 is type64
 
@@ -102,7 +102,7 @@ Ogui.QueryRidesDriverGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)V
 
 gui.LoginGUI67
 =
-7gui.LoginGUI#getBusinessLogic()LbusinessLogic/BLFacade;69
+7gui.LoginGUI#getBusinessLogic()Lbusinesslogic/BLFacade;69
 
 gui.QueryRidesDriverGUI$271
 3
@@ -116,7 +116,7 @@ Ogui.QueryRidesDriverGUI$3#valueChanged(Ljavax/swing/event/ListSelectionEvent;)V
 
 valueChanged79
 C
-=businessLogic.BLFacade#getBalanceByEmail(Ljava/lang/String;)F81
+=businesslogic.BLFacade#getBalanceByEmail(Ljava/lang/String;)F81
 
 domain.Driver83
 0
@@ -128,7 +128,7 @@ C
 
 domain.Booking91
 d
-^businessLogic.BLFacade#getBookingByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;93
+^businesslogic.BLFacade#getBookingByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;93
 
 domain.User95
 1
@@ -158,13 +158,13 @@ d
 O
 Hgui.QueryRidesDriverGUI$4#actionPerformed(Ljava/awt/event/ActionEvent;)V121
 B
-;businessLogic.BLFacade#acceptBooking(Ljava/lang/Integer;F)Z123
+;businesslogic.BLFacade#acceptBooking(Ljava/lang/Integer;F)Z123
  
 gui.QueryRidesDriverGUI$5125
 O
 Hgui.QueryRidesDriverGUI$5#actionPerformed(Ljava/awt/event/ActionEvent;)V127
 C
-<businessLogic.BLFacade#declineBooking(Ljava/lang/Integer;F)V129
+<businesslogic.BLFacade#declineBooking(Ljava/lang/Integer;F)V129
 
 jButton2_actionPerformed130J
 
@@ -177,6 +177,9 @@ C
 
 5	
 576jç
+
+68
+686961
 B
 77<
 777850 *
@@ -241,17 +244,14 @@ A
 13
 23
 
-62
-626361
-
-92
-929361
-
 66
 666761
 
 100
 10010161
+
+128
+12812961
 
 98
 989961
@@ -291,6 +291,9 @@ A
 
 96
 969761
+
+62
+626361
 H
 120A
 12012150 *
@@ -349,9 +352,6 @@ A
 
 116
 11611761
-
-128
-12812961
 6
 540
 545510 *
@@ -412,12 +412,6 @@ A
 13
 35
 
-80
-808161
-
-68
-686961
-
 86
 868761
 B
@@ -432,9 +426,6 @@ B
 
 13
 74
-
-122
-12212361
 A
 39;
 394017 *
@@ -447,6 +438,9 @@ A
 
 13
 41
+
+92
+929361
 
 102
 10210361
@@ -462,6 +456,12 @@ A
 
 13
 26
+
+122
+12212361
+
+80
+808161
 
 106
 10610761

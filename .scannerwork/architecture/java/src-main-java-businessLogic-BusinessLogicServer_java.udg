@@ -1,7 +1,7 @@
 
-1.0+mikelpallin_monopolymikelpallin_rides24-is2JavaFrontend"1758901005071*java2.Bû
+1.0mikelpallin_rides24-is2JavaFrontend"1759157530697*java2.Bû
 9
-4src/main/java/businessLogic/BusinessLogicServer.java2
+4src/main/java/businesslogic/BusinessLogicServer.java2
 	
 type3
 	
@@ -9,9 +9,9 @@
 
 package6
 
-businessLogic7
+businesslogic7
 &
-!businessLogic.BusinessLogicServer9
+!businesslogic.BusinessLogicServer9
 
 class10
 
@@ -23,7 +23,7 @@
 
 BusinessLogicServer14
 8
-2businessLogic.BusinessLogicServer.serialVersionUID16
+2businesslogic.BusinessLogicServer.serialVersionUID16
 
 field17
 
@@ -31,21 +31,21 @@
 
 serialVersionUID19
 4
-.businessLogic.BusinessLogicServer.contentPanel21
+.businesslogic.BusinessLogicServer.contentPanel21
 
 contentPanel22
 0
-*businessLogic.BusinessLogicServer.textArea24
+*businesslogic.BusinessLogicServer.textArea24
 
 	protected25
 
 textArea26
 .
-(businessLogic.BusinessLogicServer.server28
+(businesslogic.BusinessLogicServer.server28
 
 server29
 
-businessLogic.BLFacade31
+businesslogic.BLFacade31
 
 unknown32
 
@@ -54,11 +54,11 @@
 
 uses34
 /
-)businessLogic.BusinessLogicServer.service36
+)businesslogic.BusinessLogicServer.service36
 
 service37
 B
-<businessLogic.BusinessLogicServer#main([Ljava/lang/String;)V39
+<businesslogic.BusinessLogicServer#main([Ljava/lang/String;)V39
 
 method40
 
@@ -67,20 +67,20 @@ B
 
 calls42
 1
-+businessLogic.BusinessLogicServer#<init>()V44
++businesslogic.BusinessLogicServer#<init>()V44
 )
-#businessLogic.BusinessLogicServer$146
+#businesslogic.BusinessLogicServer$146
 U
-ObusinessLogic.BusinessLogicServer$1#windowClosed(Ljava/awt/event/WindowEvent;)V48
+Obusinesslogic.BusinessLogicServer$1#windowClosed(Ljava/awt/event/WindowEvent;)V48
 
 windowClosed49
 
 
 references50
 )
-#businessLogic.BusinessLogicServer$252
+#businesslogic.BusinessLogicServer$252
 X
-RbusinessLogic.BusinessLogicServer$2#actionPerformed(Ljava/awt/event/ActionEvent;)V54
+Rbusinesslogic.BusinessLogicServer$2#actionPerformed(Ljava/awt/event/ActionEvent;)V54
 
 actionPerformed55
 
@@ -104,7 +104,7 @@ F
 F
 @configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;74
 *
-$businessLogic.BLFacadeImplementation76J
+$businesslogic.BLFacadeImplementation76J
 
 1
 12
@@ -116,8 +116,56 @@ $businessLogic.BLFacadeImplementation76J
 5	
 576jæ
 
+30
+303132
+
 75
 757632
+A
+23;
+232417 *
+1$ $(28:5B
+
+
+11
+25
+
+
+13
+26
+
+69
+697032
+;
+86
+8910 *
+1 (!:5B
+
+
+11
+12
+
+
+13
+14
+
+65
+656632
+
+67
+676832
+A
+20;
+202117 *
+1# #(	28:5B
+
+
+11
+18
+
+
+13
+22
 A
 27;
 272817 *
@@ -143,21 +191,9 @@ B
 
 13
 49
-A
-20;
-202117 *
-1# #(	28:5B
-
-
-11
-18
-
-
-13
-22
 
-69
-697032
+63
+636432
 A
 35;
 353617 *
@@ -170,61 +206,6 @@ A
 
 13
 37
-
-65
-656632
-
-67
-676832
-A
-23;
-232417 *
-1$ $(28:5B
-
-
-11
-25
-
-
-13
-26
-
-63
-636432
-
-30
-303132
-A
-15;
-151617 *
-1" "(	28:5B
-
-
-11
-18
-
-
-13
-19
-6
-450
-454610 *
-14) 4(*243:5B
-
-
-11
-25
-
-71
-717232
-6
-510
-515210 *
-1J5 J(6243:5B
-
-
-11
-25
 A
 43;
 434440 *
@@ -237,27 +218,40 @@ A
 
 13
 14
-B
-53<
-535440 *
-1K K(251:5B
+6
+450
+454610 *
+14) 4(*243:5B
 
 
 11
-12
+25
+6
+510
+515210 *
+1J5 J(6243:5B
 
 
-13
-55
+11
+25
+
+71
+717232
 
 61
 616232
-
-73
-737432
-
-59
-596032
+A
+15;
+151617 *
+1" "(	28:5B
+
+
+11
+18
+
+
+13
+19
 A
 38;
 383940 *
@@ -271,12 +265,15 @@ A
 13
 41
 
-56
-565732
-;
-86
-8910 *
-1 (!:5B
+73
+737432
+
+59
+596032
+B
+53<
+535440 *
+1K K(251:5B
 
 
 11
@@ -284,7 +281,10 @@ A
 
 
 13
-14r³
+55
+
+56
+565732r³
 
 273033*
 1% %(

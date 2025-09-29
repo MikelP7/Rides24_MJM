@@ -1,79 +1,130 @@
 
-lbusinessLogic.BLFacadeImplementation#getBookingByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;√
-∂C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaü ü('"1*õ	
-1
-† †(á
-Ñ
-
-† †(
+Öbusinesslogic.BLFacadeImplementation#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;¡
+∂C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businesslogic/BLFacadeImplementation.javae e(-"startingBlock*Æ
+startingBlocke- e(PÅ
+
+d d(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+fromjava.lang.StringX
+V
+e5 e(9
+fromjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6
+}
+d d(
+%7"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+tojava.lang.StringV
+T
+eB e(D
+tojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%7
+}
+d d(
+%8"
+__annotate*)
+
+__unknown_file (
+	WebMethod*4
+
+__unknown_file (
+
+datejava.util.DateV
+T
+eK e(O
+datejava.util.Date"__annotation*"
+
+__unknown_file (
+
+%8*
+1*ˆ	
+1f f(Ö
+Ç
+f f(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager|z
-
-† †(
+$businesslogic.BLFacadeImplementation"
+	dbManagerzx
+f f(
 
 %1void"dataAccess.DataAccess#open()V*9
 
 __unknown_file (
 
-%0dataAccess.DataAccess2open()á
-Ñ
-
-° °(
+%0dataAccess.DataAccess2open()Ö
+Ç
+g g(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerÈÊ
-
-° °(<
-%3java.util.List"]dataAccess.DataAccess#getBookingByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*9
+$businesslogic.BLFacadeImplementation"
+	dbManagerÃ…
+g g(H
+%3java.util.List"vdataAccess.DataAccess#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*7
-
-__unknown_file (
-
-emailjava.lang.String*6
+%2dataAccess.DataAccess*6
 
 __unknown_file (
 
-typejava.lang.String27getBookingByEmail(Ljava/lang/String;Ljava/lang/String;)]
-[
-
-° °(=
-ljava.util.List"__id*2
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String*4
+
+__unknown_file (
+
+datejava.util.Date2PgetThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)_
+]
+g g(I
+datesjava.util.List"__id*2
 
 __unknown_file (
 
-%3java.util.Listá
-Ñ
-
-¢ ¢(
+%3java.util.ListÖ
+Ç
+h h(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-¢ ¢(
+$businesslogic.BLFacadeImplementation"
+	dbManager|z
+h h(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"#
-
-£ £(
-
-ljava.util.List:'
-
-ü) ü(6
-emailjava.lang.String:&
-
-ü7 ü(B
-typejava.lang.StringB(&
-$businessLogic.BLFacadeImplementationH
+%4dataAccess.DataAccess2close()"%
+i i(
+
+datesjava.util.List:$
+e. e(:
+fromjava.lang.String:"
+e; e(E
+tojava.lang.String:"
+eF e(O
+datejava.util.DateB(&
+$businesslogic.BLFacadeImplementationH

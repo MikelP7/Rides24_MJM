@@ -1,7 +1,7 @@
 
-1.0+mikelpallin_monopolymikelpallin_rides24-is2JavaFrontend"1758901002912*java2.Bà7
+1.0mikelpallin_rides24-is2JavaFrontend"1759157529965*java2.Bà7
 <
-7src/main/java/businessLogic/BLFacadeImplementation.java2
+7src/main/java/businesslogic/BLFacadeImplementation.java2
 	
 type3
 	
@@ -9,9 +9,9 @@
 
 package6
 
-businessLogic7
+businesslogic7
 )
-$businessLogic.BLFacadeImplementation9
+$businesslogic.BLFacadeImplementation9
 
 class10
 
@@ -23,7 +23,7 @@ $businessLogic.BLFacadeImplementation9
 
 BLFacadeImplementation14
 
-businessLogic.BLFacade16
+businesslogic.BLFacade16
 
 unknown17
 
@@ -40,7 +40,7 @@ WebService20
 
 uses24
 4
-.businessLogic.BLFacadeImplementation.dbManager26
+.businesslogic.BLFacadeImplementation.dbManager26
 
 field27
 
@@ -52,7 +52,7 @@ WebService20
 
 is type32
 4
-.businessLogic.BLFacadeImplementation#<init>()V34
+.businesslogic.BLFacadeImplementation#<init>()V34
 
 method35
 
@@ -61,7 +61,7 @@ WebService20
 
 references37
 K
-EbusinessLogic.BLFacadeImplementation#<init>(LdataAccess/DataAccess;)V39
+Ebusinesslogic.BLFacadeImplementation#<init>(LdataAccess/DataAccess;)V39
 
 	has param40
 
@@ -71,7 +71,7 @@ EbusinessLogic.BLFacadeImplementation#<init>(LdataAccess/DataAccess;)V39
 D
 >configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;45
 L
-FbusinessLogic.BLFacadeImplementation#getDepartCities()Ljava/util/List;47
+Fbusinesslogic.BLFacadeImplementation#getDepartCities()Ljava/util/List;47
 
 getDepartCities48
 
@@ -85,13 +85,13 @@ FbusinessLogic.BLFacadeImplementation#getDepartCities()Ljava/util/List;47
 $
 dataAccess.DataAccess#close()V58
 c
-]businessLogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;60
+]businesslogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;60
 
 getDestinationCities61
 P
 JdataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;63
 ù
-ñbusinessLogic.BLFacadeImplementation#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLjava/lang/String;Ljava/util/List;)Ldomain/Ride;65
+ñbusinesslogic.BLFacadeImplementation#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLjava/lang/String;Ljava/util/List;)Ldomain/Ride;65
 
 
 createRide66
@@ -104,23 +104,23 @@ $exceptions.RideAlreadyExistException72
 é
 ádataAccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLjava/lang/String;Ljava/util/List;)Ldomain/Ride;74
 y
-sbusinessLogic.BLFacadeImplementation#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;76
+sbusinesslogic.BLFacadeImplementation#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;76
 
 getRides77
 j
 ddataAccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;79
 å
-ÖbusinessLogic.BLFacadeImplementation#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;81
+Öbusinesslogic.BLFacadeImplementation#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;81
  
 getThisMonthDatesWithRides82
 |
 vdataAccess.DataAccess#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;84
 3
--businessLogic.BLFacadeImplementation#close()V86
+-businesslogic.BLFacadeImplementation#close()V86
 
 close87
 k
-ebusinessLogic.BLFacadeImplementation#loginDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;89
+ebusinesslogic.BLFacadeImplementation#loginDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;89
 
 loginDriver90
 
@@ -128,7 +128,7 @@ ebusinessLogic.BLFacadeImplementation#loginDriver(Ljava/lang/String;Ljava/lang/S
 \
 VdataAccess.DataAccess#loginDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;94
 g
-abusinessLogic.BLFacadeImplementation#loginUser(Ljava/lang/String;Ljava/lang/String;)Ldomain/User;96
+abusinesslogic.BLFacadeImplementation#loginUser(Ljava/lang/String;Ljava/lang/String;)Ldomain/User;96
 
 	loginUser97
 
@@ -136,31 +136,31 @@ abusinessLogic.BLFacadeImplementation#loginUser(Ljava/lang/String;Ljava/lang/Str
 Y
 RdataAccess.DataAccess#loginUser(Ljava/lang/String;Ljava/lang/String;)Ldomain/User;101
 s
-lbusinessLogic.BLFacadeImplementation#registerDriver(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z103
+lbusinesslogic.BLFacadeImplementation#registerDriver(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z103
 
 registerDriver104
 d
 ]dataAccess.DataAccess#registerDriver(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z106
 q
-jbusinessLogic.BLFacadeImplementation#registerUser(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z108
+jbusinesslogic.BLFacadeImplementation#registerUser(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z108
 
 registerUser109
 b
 [dataAccess.DataAccess#registerUser(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z111
 m
-fbusinessLogic.BLFacadeImplementation#addRideUser(Ldomain/User;Ljava/lang/Integer;Ljava/lang/Integer;)Z113
+fbusinesslogic.BLFacadeImplementation#addRideUser(Ldomain/User;Ljava/lang/Integer;Ljava/lang/Integer;)Z113
 
 addRideUser114
 ^
 WdataAccess.DataAccess#addRideUser(Ldomain/User;Ljava/lang/Integer;Ljava/lang/Integer;)Z116
 q
-jbusinessLogic.BLFacadeImplementation#getRidesByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;118
+jbusinesslogic.BLFacadeImplementation#getRidesByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;118
 
 getRidesByEmail119
 b
 [dataAccess.DataAccess#getRidesByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;121
 s
-lbusinessLogic.BLFacadeImplementation#getBookingByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;123
+lbusinesslogic.BLFacadeImplementation#getBookingByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;123
 
 getBookingByEmail124
 
@@ -168,7 +168,7 @@ lbusinessLogic.BLFacadeImplementation#getBookingByEmail(Ljava/lang/String;Ljava/
 d
 ]dataAccess.DataAccess#getBookingByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;128
 ™
-¢businessLogic.BLFacadeImplementation#addBooking(Ldomain/User;Ldomain/Ride;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Double;Ldomain/Stop;)Z130
+¢businesslogic.BLFacadeImplementation#addBooking(Ldomain/User;Ldomain/Ride;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Double;Ldomain/Stop;)Z130
 
 
 addBooking131
@@ -177,79 +177,79 @@ addBooking131
 õ
 ìdataAccess.DataAccess#addBooking(Ldomain/User;Ldomain/Ride;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Double;Ldomain/Stop;)Z135
 ]
-VbusinessLogic.BLFacadeImplementation#addStopToRide(Ldomain/Ride;Ljava/lang/String;FI)Z137
+Vbusinesslogic.BLFacadeImplementation#addStopToRide(Ldomain/Ride;Ljava/lang/String;FI)Z137
 
 addStopToRide138
 N
 GdataAccess.DataAccess#addStopToRide(Ldomain/Ride;Ljava/lang/String;FI)Z140
 V
-ObusinessLogic.BLFacadeImplementation#findRide(Ljava/lang/Integer;)Ldomain/Ride;142
+Obusinesslogic.BLFacadeImplementation#findRide(Ljava/lang/Integer;)Ldomain/Ride;142
 
 findRide143
 G
 @dataAccess.DataAccess#findRide(Ljava/lang/Integer;)Ldomain/Ride;145
 P
-IbusinessLogic.BLFacadeImplementation#acceptBooking(Ljava/lang/Integer;F)Z147
+Ibusinesslogic.BLFacadeImplementation#acceptBooking(Ljava/lang/Integer;F)Z147
 
 acceptBooking148
 A
 :dataAccess.DataAccess#acceptBooking(Ljava/lang/Integer;F)Z150
 Q
-JbusinessLogic.BLFacadeImplementation#declineBooking(Ljava/lang/Integer;F)V152
+Jbusinesslogic.BLFacadeImplementation#declineBooking(Ljava/lang/Integer;F)V152
 
 declineBooking153
 B
 ;dataAccess.DataAccess#declineBooking(Ljava/lang/Integer;F)V155
 R
-KbusinessLogic.BLFacadeImplementation#getBalanceByEmail(Ljava/lang/String;)F157
+Kbusinesslogic.BLFacadeImplementation#getBalanceByEmail(Ljava/lang/String;)F157
 
 getBalanceByEmail158
 C
 <dataAccess.DataAccess#getBalanceByEmail(Ljava/lang/String;)F160
 J
-CbusinessLogic.BLFacadeImplementation#getStopNames()Ljava/util/List;162
+Cbusinesslogic.BLFacadeImplementation#getStopNames()Ljava/util/List;162
 
 getStopNames163
 ;
 4dataAccess.DataAccess#getStopNames()Ljava/util/List;165
 _
-XbusinessLogic.BLFacadeImplementation#setStopBooking(Ldomain/Booking;Ljava/lang/String;)V167
+Xbusinesslogic.BLFacadeImplementation#setStopBooking(Ldomain/Booking;Ljava/lang/String;)V167
 
 setStopBooking168
 P
 IdataAccess.DataAccess#setStopBooking(Ldomain/Booking;Ljava/lang/String;)V170
 W
-PbusinessLogic.BLFacadeImplementation#getRideStops(Ldomain/Ride;)Ljava/util/List;172
+Pbusinesslogic.BLFacadeImplementation#getRideStops(Ldomain/Ride;)Ljava/util/List;172
 
 getRideStops173
 H
 AdataAccess.DataAccess#getRideStops(Ldomain/Ride;)Ljava/util/List;175
 d
-]businessLogic.BLFacadeImplementation#getStopsByOriginName(Ljava/lang/String;)Ljava/util/List;177
+]businesslogic.BLFacadeImplementation#getStopsByOriginName(Ljava/lang/String;)Ljava/util/List;177
 
 getStopsByOriginName178
 U
 NdataAccess.DataAccess#getStopsByOriginName(Ljava/lang/String;)Ljava/util/List;180
 Ä
-ybusinessLogic.BLFacadeImplementation#getRidesByStop(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;182
+ybusinesslogic.BLFacadeImplementation#getRidesByStop(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;182
 
 getRidesByStop183
 q
 jdataAccess.DataAccess#getRidesByStop(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;185
 g
-`businessLogic.BLFacadeImplementation#getStopsAndDestinations(Ljava/lang/String;)Ljava/util/List;187
+`businesslogic.BLFacadeImplementation#getStopsAndDestinations(Ljava/lang/String;)Ljava/util/List;187
 
 getStopsAndDestinations188
 X
 QdataAccess.DataAccess#getStopsAndDestinations(Ljava/lang/String;)Ljava/util/List;190
 Ö
-~businessLogic.BLFacadeImplementation#getRidesByBothStops(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;192
+~businesslogic.BLFacadeImplementation#getRidesByBothStops(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;192
 
 getRidesByBothStops193
 v
 odataAccess.DataAccess#getRidesByBothStops(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;195
 ;
-4businessLogic.BLFacadeImplementation#initializeBD()V197
+4businesslogic.BLFacadeImplementation#initializeBD()V197
 
 initializeBD198
 ,
@@ -264,6 +264,28 @@ odataAccess.DataAccess#getRidesByBothStops(Ljava/lang/String;Ljava/lang/String;L
 
 5	
 576jß
+G
+129@
+12913035 *
+1¶ ¶(28:5B
+
+
+11
+12
+
+13
+131
+G
+161@
+16116235 *
+1œ œ(28:5B
+
+
+11
+12
+
+13
+163
 G
 181@
 18118235 *
@@ -282,57 +304,53 @@ G
 139
 13914017
 G
-112@
-11211335 *
-1ë ë(28:5B
+122@
+12212335 *
+1ü ü(28:5B
 
 
 11
 12
 
 13
-114
+124
 
 154
 15415517
 
 199
 19920017
-
-15
-151617
-A
-38;
-383935 *
-1& &(28:5B
-
-
-11
-12
-
-
-13
-14
-
-144
-14414517
 G
-146@
-14614735 *
-1ª ª(28:5B
+151@
+15115235 *
+1¬ ¬(28:5B
 
 
 11
 12
 
 13
-148
+153
+
+144
+14414517
 
 57
 575817
 
 44
 444517
+G
+141@
+14114235 *
+1¥ ¥(28:5B
+
+
+11
+12
+
+13
+143
 A
 80;
 808135 *
@@ -345,17 +363,6 @@ A
 
 13
 82
-G
-161@
-16116235 *
-1œ œ(28:5B
-
-
-11
-12
-
-13
-163
 
 169
 16917017
@@ -370,34 +377,6 @@ G
 
 13
 193
-
-71
-717217
-G
-151@
-15115235 *
-1¬ ¬(28:5B
-
-
-11
-12
-
-13
-153
-
-98
-989917
-G
-156@
-15615735 *
-1» »(28:5B
-
-
-11
-12
-
-13
-158
 A
 33;
 333435 *
@@ -410,12 +389,57 @@ A
 
 13
 14
+
+71
+717217
+
+98
+989917
 
 164
 16416517
+G
+112@
+11211335 *
+1ë ë(28:5B
+
+
+11
+12
+
+13
+114
 
 149
 14915017
+G
+186@
+18618735 *
+1Ú Ú(28:5B
+
+
+11
+12
+
+13
+188
+
+91
+919217
+G
+196@
+19619735 *
+1Ñ Ñ(28:5B
+
+
+11
+12
+
+13
+198
+
+100
+10010117
 A
 64;
 646535 *
@@ -429,36 +453,8 @@ A
 13
 66
 
-91
-919217
-G
-141@
-14114235 *
-1¥ ¥(28:5B
-
-
-11
-12
-
-13
-143
-
-100
-10010117
-
 78
 787917
-G
-176@
-17617735 *
-1„ „(28:5B
-
-
-11
-12
-
-13
-178
 
 93
 939417
@@ -468,78 +464,34 @@ G
 
 53
 535417
+G
+107@
+10710835 *
+1ä ä(28:5B
+
+
+11
+12
+
+13
+109
 
 73
 737417
+G
+117@
+11711835 *
+1ò ò(28:5B
+
+
+11
+12
+
+13
+119
 
 41
 414217
-
-189
-18919017
-G
-196@
-19619735 *
-1Ñ Ñ(28:5B
-
-
-11
-12
-
-13
-198
-
-83
-838417
-
-179
-17918017
-
-125
-12512617
-
-19
-192017
-G
-166@
-16616735 *
-1÷ ÷(28:5B
-
-
-11
-12
-
-13
-168
-G
-171@
-17117235 *
-1‹ ‹(28:5B
-
-
-11
-12
-
-13
-173
-
-51
-515217
-
-134
-13413517
-
-120
-12012117
-
-22
-222317
-
-49
-495017
-
-62
-626317
 A
 95;
 959635 *
@@ -552,28 +504,18 @@ A
 
 13
 97
-G
-122@
-12212335 *
-1ü ü(28:5B
-
-
-11
-12
-
-13
-124
-G
-186@
-18618735 *
-1Ú Ú(28:5B
-
-
-11
-12
-
-13
-188
+
+189
+18919017
+
+83
+838417
+
+179
+17918017
+
+125
+12512617
 A
 46;
 464735 *
@@ -586,82 +528,38 @@ A
 
 13
 48
-A
-25;
-252627 *
-1 (28:5B
-
-
-11
-28
-
-
-13
-29
-;
-86
-8910 *
-1 ($:5B
-
-
-11
-12
-
-
-13
-14
+
+19
+192017
+
+51
+515217
 
-184
-18418517
+134
+13413517
 
-159
-15916017
-
-194
-19419517
+120
+12012117
 G
-102@
-10210335 *
-1Ç Ç(28:5B
+171@
+17117235 *
+1‹ ‹(28:5B
 
 
 11
 12
 
 13
-104
-G
-107@
-10710835 *
-1ä ä(28:5B
-
-
-11
-12
-
-13
-109
-A
-59;
-596035 *
-1? ?(28:5B
-
-
-11
-12
-
-
-13
-61
-
-110
-11011117
+173
 
-69
-697017
+22
+222317
 
-55
-555617
+49
+495017
+
+62
+626317
 A
 85;
 858635 *
@@ -674,32 +572,22 @@ A
 
 13
 87
-G
-129@
-12913035 *
-1¶ ¶(28:5B
-
-
-11
-12
-
-13
-131
-G
-117@
-11711835 *
-1ò ò(28:5B
-
-
-11
-12
-
-13
-119
 A
-88;
-888935 *
-1t t(28:5B
+25;
+252627 *
+1 (28:5B
+
+
+11
+28
+
+
+13
+29
+A
+59;
+596035 *
+1? ?(28:5B
 
 
 11
@@ -707,24 +595,107 @@ A
 
 
 13
-90
-
-127
-12712817
-
-67
-676817
+61
 G
-136@
-13613735 *
-1≠ ≠(28:5B
+166@
+16616735 *
+1÷ ÷(28:5B
 
 
 11
 12
 
 13
-138
+168
+
+15
+151617
+;
+86
+8910 *
+1 ($:5B
+
+
+11
+12
+
+
+13
+14
+G
+176@
+17617735 *
+1„ „(28:5B
+
+
+11
+12
+
+13
+178
+
+184
+18418517
+
+159
+15916017
+
+194
+19419517
+G
+146@
+14614735 *
+1ª ª(28:5B
+
+
+11
+12
+
+13
+148
+
+110
+11011117
+
+69
+697017
+
+55
+555617
+G
+102@
+10210335 *
+1Ç Ç(28:5B
+
+
+11
+12
+
+13
+104
+
+127
+12712817
+G
+156@
+15615735 *
+1» »(28:5B
+
+
+11
+12
+
+13
+158
+
+67
+676817
+
+30
+303117
+
+132
+13213317
 A
 75;
 757635 *
@@ -737,12 +708,41 @@ A
 
 13
 77
-
-30
-303117
-
-132
-13213317
+A
+88;
+888935 *
+1t t(28:5B
+
+
+11
+12
+
+
+13
+90
+A
+38;
+383935 *
+1& &(28:5B
+
+
+11
+12
+
+
+13
+14
+G
+136@
+13613735 *
+1≠ ≠(28:5B
+
+
+11
+12
+
+13
+138
 
 174
 17417517rån

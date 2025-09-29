@@ -1,11 +1,4 @@
-
-";"java.lang.String!thisG G("domain.Driver"ó8
-6
-H	 H("#get-field# email:Bjava.lang.String7
-5
-H H("#get-field# name:Bjava.lang.String6
+!thisK K("domain.Driver"H6
 4
-H H("#get-field# rides:Bjava.util.List6
-4
-H	 H("	#binop +#2+:Bjava.lang.String
-H H(*ŸC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/domain/Driver.java
+L	 L("#get-field# rides:Bjava.util.List
+L L(*ŸC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/domain/Driver.java

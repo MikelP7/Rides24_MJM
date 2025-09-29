@@ -1,18 +1,18 @@
 
-KbusinessLogic.BLFacadeImplementation#getBalanceByEmail(Ljava/lang/String;)F√
-∂C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.java» »("1*π
+fbusinesslogic.BLFacadeImplementation#addRideUser(Ldomain/User;Ljava/lang/Integer;Ljava/lang/Integer;)Z√
+∂C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businesslogic/BLFacadeImplementation.javaë ë("1*·
 1
-… …(á
+í í(á
 Ñ
 
-… …(
+í í(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
+$businesslogic.BLFacadeImplementation"
 	dbManager|z
 
-… …(
+í í(
 
 %1void"dataAccess.DataAccess#open()V*9
 
@@ -21,33 +21,41 @@ $businessLogic.BLFacadeImplementation"
 %0dataAccess.DataAccess2open()á
 Ñ
 
-   (
+ì ì(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManagerıÚ
+$businesslogic.BLFacadeImplementation"
+	dbManagerùö
 
-   (.
-%3float"<dataAccess.DataAccess#getBalanceByEmail(Ljava/lang/String;)F*9
+ì ì(9
+%3boolean"WdataAccess.DataAccess#addRideUser(Ldomain/User;Ljava/lang/Integer;Ljava/lang/Integer;)Z*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*7
+%2dataAccess.DataAccess*1
 
-__unknown_file (
-
-emailjava.lang.String2%getBalanceByEmail(Ljava/lang/String;)á
+__unknown_file (
+
+userdomain.User*:
+
+__unknown_file (
+
+rideNumjava.lang.Integer*8
+
+__unknown_file (
+
+seatsjava.lang.Integer2@addRideUser(Ldomain/User;Ljava/lang/Integer;Ljava/lang/Integer;)á
 Ñ
 
-À À(
+î î(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
+$businesslogic.BLFacadeImplementation"
 	dbManager~|
 
-À À(
+î î(
 
 %5void"dataAccess.DataAccess#close()V*9
 
@@ -55,9 +63,15 @@ $businessLogic.BLFacadeImplementation"
 
 %4dataAccess.DataAccess2close()"
 
-Ã Ã(
-"":'
+ï ï(
+"":!
 
-»  »(,
-emailjava.lang.StringB(&
-$businessLogic.BLFacadeImplementationHX
+ë ë(&
+userdomain.User:*
+
+ë' ë(7
+rideNumjava.lang.Integer:(
+
+ë8 ë(E
+seatsjava.lang.IntegerB(&
+$businesslogic.BLFacadeImplementationHX

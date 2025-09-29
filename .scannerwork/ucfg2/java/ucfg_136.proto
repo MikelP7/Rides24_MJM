@@ -1,77 +1,82 @@
 
-jbusinessLogic.BLFacadeImplementation#registerUser(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z√
-∂C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaä ä("1*Ò
-1
-ã ã(á
-Ñ
-
-ã ã(
+]businesslogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;¡
+∂C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businesslogic/BLFacadeImplementation.java?  ?(4"startingBlock*¸
+startingBlock?4 ?(AÅ
+
+? ?(
+%6"
+__annotate*)
+
+__unknown_file (
+	WebMethod*6
+
+__unknown_file (
+
+fromjava.lang.StringX
+V
+?< ?(@
+fromjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6*
+1*¿
+1@ @(Ö
+Ç
+@ @(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager|z
-
-ã ã(
+$businesslogic.BLFacadeImplementation"
+	dbManagerzx
+@ @(
 
 %1void"dataAccess.DataAccess#open()V*9
 
 __unknown_file (
 
-%0dataAccess.DataAccess2open()á
-Ñ
-
-å å(
+%0dataAccess.DataAccess2open()Ö
+Ç
+B B(&
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager≠™
-
-å å(>
-%3boolean"[dataAccess.DataAccess#registerUser(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z*9
+$businesslogic.BLFacadeImplementation"
+	dbManageràÖ
+B B(=
+%3java.util.List"JdataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*:
+%2dataAccess.DataAccess*6
 
-__unknown_file (
-
-usernamejava.lang.String*7
+__unknown_file (
 
-__unknown_file (
-
-emailjava.lang.String*:
+fromjava.lang.String2$getArrivalCities(Ljava/lang/String;)f
+d
+B B(>
+targetCitiesjava.util.List"__id*2
 
-__unknown_file (
-
-passwordjava.lang.String2DregisterUser(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)á
-Ñ
-
-ç ç(
+__unknown_file (
+
+%3java.util.ListÖ
+Ç
+D D(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-ç ç(
+$businesslogic.BLFacadeImplementation"
+	dbManager|z
+D D(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"
-
-é é(
-"":*
-
-ä ä(-
-usernamejava.lang.String:'
-
-ä. ä(;
-emailjava.lang.String:*
-
-ä< ä(K
-passwordjava.lang.StringB(&
-$businessLogic.BLFacadeImplementationHX
+%4dataAccess.DataAccess2close()",
+F F( 
+
+targetCitiesjava.util.List:$
+?5 ?(@
+fromjava.lang.StringB(&
+$businesslogic.BLFacadeImplementationH

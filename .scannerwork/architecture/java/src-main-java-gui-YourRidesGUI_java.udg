@@ -1,5 +1,5 @@
 
-1.0+mikelpallin_monopolymikelpallin_rides24-is2JavaFrontend"1758901002035*java2.BÕ
+1.0mikelpallin_rides24-is2JavaFrontend"1759157528975*java2.BÕ
 (
 #src/main/java/gui/YourRidesGUI.java2
 	
@@ -89,7 +89,7 @@ Hgui.YourRidesGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)V57
 
 unknown58
 
-businessLogic.BLFacade60
+businesslogic.BLFacade60
 
 is type61
 
@@ -97,7 +97,7 @@ Hgui.YourRidesGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)V57
 
 gui.LoginGUI64
 =
-7gui.LoginGUI#getBusinessLogic()LbusinessLogic/BLFacade;66
+7gui.LoginGUI#getBusinessLogic()Lbusinesslogic/BLFacade;66
 
 gui.YourRidesGUI$268
 ,
@@ -113,11 +113,11 @@ Hgui.YourRidesGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)V57
 
 domain.Ride79
 b
-\businessLogic.BLFacade#getRidesByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;81
+\businesslogic.BLFacade#getRidesByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;81
 0
 *domain.Driver#getEmail()Ljava/lang/String;83
 C
-=businessLogic.BLFacade#getBalanceByEmail(Ljava/lang/String;)F85
+=businesslogic.BLFacade#getBalanceByEmail(Ljava/lang/String;)F85
 /
 )domain.Driver#getName()Ljava/lang/String;87
 ,
@@ -139,7 +139,7 @@ C
 
 domain.Booking105
 e
-^businessLogic.BLFacade#getBookingByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;107
+^businesslogic.BLFacade#getBookingByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;107
 /
 (domain.User#getEmail()Ljava/lang/String;109
 0
@@ -166,6 +166,9 @@ e
 
 5	
 576jê
+
+65
+656658
 
 104
 10410558
@@ -214,12 +217,6 @@ A
 
 13
 35
-
-59
-596058
-
-106
-10610758
 A
 30;
 303117 *
@@ -282,9 +279,6 @@ A
 13
 14
 
-80
-808158
-
 76
 767758
 A
@@ -326,6 +320,9 @@ A
 
 13
 41
+
+59
+596058
 B
 69<
 697047 *
@@ -386,6 +383,9 @@ A
 
 11
 22
+
+80
+808158
 
 110
 11011158
@@ -411,20 +411,20 @@ A
 92
 929358
 
-84
-848558
-
-65
-656658
-
 74
 747558
+
+106
+10610758
 
 114
 11411558
 
 78
 787958
+
+84
+848558
 
 118
 11811958

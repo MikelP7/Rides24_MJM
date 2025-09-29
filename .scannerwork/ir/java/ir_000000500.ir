@@ -1,20 +1,3 @@
-
-";"java.lang.String!this
-≈ ≈("domain.Ride"æ@
->
-
-∆	 ∆("#get-field# rideNumber:Bjava.lang.Integer9
-7
-
-∆ ∆("#get-field# from:Bjava.lang.String7
-5
-
-∆! ∆(#"#get-field# to:Bjava.lang.String7
-5
-
-∆( ∆(,"#get-field# date:Bjava.util.Date;
-9
-
-∆	 ∆(,"	#binop +#2+:Bjava.lang.String
-
-∆ ∆(-*ùC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/domain/Ride.java
+*this ("configuration.UtilDate"
+
+ <(*®C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/configuration/UtilDate.java

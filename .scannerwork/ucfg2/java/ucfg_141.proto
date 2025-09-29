@@ -1,82 +1,68 @@
 
-VbusinessLogic.BLFacadeImplementation#addStopToRide(Ldomain/Ride;Ljava/lang/String;FI)ZÃ
-¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.java­ ­("1*Ë
-1
-® ®(‡
-„
-
-® ®(
+ebusinesslogic.BLFacadeImplementation#loginDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;Á
+¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businesslogic/BLFacadeImplementation.javat t("1*ÿ
+1u u(…
+‚
+u u(
 %0dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager|z
-
-® ®(
+$businesslogic.BLFacadeImplementation"
+	dbManagerzx
+u u(
 
 %1void"dataAccess.DataAccess#open()V*9
 
 __unknown_file (
 
-%0dataAccess.DataAccess2open()‡
-„
-
-¯ ¯(
+%0dataAccess.DataAccess2open()…
+‚
+v v(
 %2dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager‡„
-
-¯ ¯(=
-%3boolean"GdataAccess.DataAccess#addStopToRide(Ldomain/Ride;Ljava/lang/String;FI)Z*9
+$businesslogic.BLFacadeImplementation"
+	dbManageràÝ
+v v(5
+%3domain.Driver"VdataAccess.DataAccess#loginDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;*9
 
 __unknown_file (
 
-%2dataAccess.DataAccess*1
+%2dataAccess.DataAccess*:
+
+__unknown_file (
+
+usernamejava.lang.String*:
+
+__unknown_file (
+
+passwordjava.lang.String21loginDriver(Ljava/lang/String;Ljava/lang/String;)Y
+W
+v v(6
+bdomain.Driver"__id*1
 
 __unknown_file (
 
-ridedomain.Ride*6
-
-__unknown_file (
-
-namejava.lang.String*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""20addStopToRide(Ldomain/Ride;Ljava/lang/String;FI)‡
-„
-
-° °(
+%3domain.Driver…
+‚
+w w(
 %4dataAccess.DataAccess"__id*S
 
 __unknown_file (7*5&
-$businessLogic.BLFacadeImplementation"
-	dbManager~|
-
-° °(
+$businesslogic.BLFacadeImplementation"
+	dbManager|z
+w w(
 
 %5void"dataAccess.DataAccess#close()V*9
 
 __unknown_file (
 
-%4dataAccess.DataAccess2close()"
-
-± ±(
-"":!
-
-­ ­((
-ridedomain.Ride:&
-
-­) ­(5
-namejava.lang.String: 
-
-__unknown_file (
-"": 
-
-__unknown_file (
-""B(&
-$businessLogic.BLFacadeImplementationHX
+%4dataAccess.DataAccess2close()" 
+x x(
+
+bdomain.Driver:(
+t t(+
+usernamejava.lang.String:(
+t, t(;
+passwordjava.lang.StringB(&
+$businesslogic.BLFacadeImplementationH

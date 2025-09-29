@@ -1,17 +1,17 @@
 
 AdataAccess.DataAccess#getRideStops(Ldomain/Ride;)Ljava/util/List;¥
-ßC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.javaï ï("1*Î
+ßC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.javaõ õ("1*Î
 1
-ñ ñ(J
+ú ú(J
 H
 
-ñ ñ(%
+ú ú(%
 rdomain.Ride"__id*"
 
 __unknown_file (
 ""âÜ
 
-ó ó(
+ù ù(
 %0java.util.List"&domain.Ride#getStops()Ljava/util/List;*.
 
 __unknown_file (
@@ -20,17 +20,17 @@ H
 getStops()]
 [
 
-ó ó(
+ù ù(
 ljava.util.List"__id*2
 
 __unknown_file (
 
 %0java.util.List"#
 
-ò ò(
+û û(
 
 ljava.util.List:!
 
-ï! ï(*
+õ! õ(*
 ridedomain.RideB
 dataAccess.DataAccessH

@@ -1,7 +1,7 @@
 package gui;
 
 import java.awt.EventQueue;
-import businessLogic.*;
+
 import domain.*;
 
 import javax.swing.JFrame;
@@ -9,6 +9,9 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+
+import businesslogic.*;
+
 import javax.swing.JToolBar;
 import java.awt.GridLayout;
 import javax.swing.JTextField;

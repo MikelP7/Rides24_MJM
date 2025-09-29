@@ -1,7 +1,12 @@
 package dataAccess;
 
 import java.io.File;
+import java.io.IOException;
+import java.util.logging.Logger;
 import java.net.NoRouteToHostException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -33,6 +38,7 @@ import exceptions.RideMustBeLaterThanTodayException;
 public class DataAccess  {
 	private  EntityManager  db;
 	private  EntityManagerFactory emf;
+	Logger logger = Logger.getLogger(getClass().getName());
 
 
 	ConfigXML c=ConfigXML.getInstance();
@@ -40,21 +46,21 @@ public class DataAccess  {
      public DataAccess()  {
 		if (c.isDatabaseInitialized()) {
 			String fileName=c.getDbFilename();
-
-			File fileToDelete= new File(fileName);
-			if(fileToDelete.delete()){
-				File fileToDeleteTemp= new File(fileName+"$");
-				fileToDeleteTemp.delete();
-
-				  System.out.println("File deleted");
-				} else {
-				  System.out.println("Operation failed");
-				}
+			Path fileToDelete = Paths.get(fileName);
+			try {
+				Files.delete(fileToDelete);
+				Path fileToDeleteTemp = Paths.get(fileName+"$");
+				Files.deleteIfExists(fileToDeleteTemp);
+				logger.info("File deleted");
+			} catch (IOException e) {
+				logger.info("Operation failed" + e.getMessage());
+			}
 		}
 		open();
+		
 		if  (c.isDatabaseInitialized())initializeDB();
 		
-		System.out.println("DataAccess created => isDatabaseLocal: "+c.isDatabaseLocal()+" isDatabaseInitialized: "+c.isDatabaseInitialized());
+		logger.info("DataAccess created => isDatabaseLocal: "+c.isDatabaseLocal()+" isDatabaseInitialized: "+c.isDatabaseInitialized());
 
 		close();
 

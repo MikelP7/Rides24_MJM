@@ -1,0 +1,82 @@
+
+VbusinessLogic.BLFacadeImplementation#addStopToRide(Ldomain/Ride;Ljava/lang/String;FI)ZÃ
+¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.java­ ­("1*Ë
+1
+® ®(‡
+„
+
+® ®(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+® ®(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+¯ ¯(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager‡„
+
+¯ ¯(=
+%3boolean"GdataAccess.DataAccess#addStopToRide(Ldomain/Ride;Ljava/lang/String;FI)Z*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*1
+
+__unknown_file (
+
+ridedomain.Ride*6
+
+__unknown_file (
+
+namejava.lang.String*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""20addStopToRide(Ldomain/Ride;Ljava/lang/String;FI)‡
+„
+
+° °(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+° °(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"
+
+± ±(
+"":!
+
+­ ­((
+ridedomain.Ride:&
+
+­) ­(5
+namejava.lang.String: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+""B(&
+$businessLogic.BLFacadeImplementationHX

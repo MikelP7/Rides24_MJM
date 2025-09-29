@@ -1,0 +1,366 @@
+
+1.0+mikelpallin_monopolymikelpallin_rides24-is2JavaFrontend"1758901002420*java2.Bø	
+8
+3src/main/java/dataAccess/ObjectdbManagerServer.java2
+	
+type3
+	
+MAIN4
+
+package6
+
+
+dataAccess7
+%
+ dataAccess.ObjectdbManagerServer9
+
+class10
+
+access11
+
+public12
+
+simple-name13
+
+ObjectdbManagerServer14
+7
+1dataAccess.ObjectdbManagerServer.serialVersionUID16
+
+field17
+
+private18
+
+serialVersionUID19
+3
+-dataAccess.ObjectdbManagerServer.contentPanel21
+
+contentPanel22
+/
+)dataAccess.ObjectdbManagerServer.textArea24
+
+	protected25
+
+textArea26
+(
+"dataAccess.ObjectdbManagerServer.c28
+
+c29
+
+configuration.ConfigXML31
+
+unknown32
+
+is type33
+
+
+uses34
+3
+-dataAccess.ObjectdbManagerServer.objectDbpath36
+
+objectDbpath37
+A
+;dataAccess.ObjectdbManagerServer#main([Ljava/lang/String;)V39
+
+method40
+
+
+main41
+
+calls42
+0
+*dataAccess.ObjectdbManagerServer#<init>()V44
+
+
+references45
+(
+"dataAccess.ObjectdbManagerServer$147
+W
+QdataAccess.ObjectdbManagerServer$1#actionPerformed(Ljava/awt/event/ActionEvent;)V49
+
+actionPerformed50
+0
+*configuration.ConfigXML#getDatabasePort()I52
+
+returns53
+D
+>configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;55
+0
+*configuration.ConfigXML#isDatabaseLocal()Z57
+9
+3configuration.ConfigXML#getUser()Ljava/lang/String;59J
+
+1
+12
+
+
+3
+4Z
+
+5	
+576jò
+A
+35;
+353617 *
+1   (28:5B
+
+
+11
+18
+
+
+13
+37
+A
+27;
+272817 *
+1 (28:5B
+
+
+11
+25
+
+
+13
+29
+
+58
+585932
+
+51
+515232
+6
+460
+464710 *
+1G5 G(6243:5B
+
+
+11
+25
+;
+86
+8910 *
+1 (#:5B
+
+
+11
+12
+
+
+13
+14
+
+56
+565732
+A
+43;
+434440 *
+15 5(28:5B
+
+
+11
+12
+
+
+13
+14
+A
+23;
+232417 *
+1 (28:5B
+
+
+11
+25
+
+
+13
+26
+A
+38;
+383940 *
+1( ((28:5B
+
+
+11
+12
+
+
+13
+41
+A
+15;
+151617 *
+1 (	28:5B
+
+
+11
+18
+
+
+13
+19
+B
+48<
+484940 *
+1H H(246:5B
+
+
+11
+12
+
+
+13
+50
+A
+20;
+202117 *
+1 (	28:5B
+
+
+11
+18
+
+
+13
+22
+
+54
+545532
+
+30
+303132r»	
+
+273033*
+1 (
+
+273034*
+1 (
+
+273034*
+1 (
+
+38833*
+1, ,( 
+
+38834*
+1, ,(
+
+38842*
+1,' ,(<
+
+43842*
+15	 5(
+
+432045*
+1: :(
+
+432045*
+1: :(
+
+432045*
+1; ;($
+
+432045*
+1< <(
+
+432045*
+1< <(
+
+432345*
+1> >(
+
+432045*
+1? ?(
+
+432045*
+1? ?(
+
+432345*
+1? ?(
+
+482345*
+1I I(
+
+482345*
+1I I(
+
+483545*
+1O3 O(?
+
+483045*
+1O_ O(`
+
+485142*
+1Oa O(p
+
+482745*
+1O_ O(`
+
+483034*
+1O_ O(`
+
+482745*
+1O_ O(`
+
+433033*
+1g g(
+
+433034*
+1g g(
+
+433053*
+1g g(
+
+433045*
+1g g(
+
+435442*
+1g g($
+
+433034*
+1g g(
+
+433045*
+1i i(
+
+435642*
+1i	 i(
+
+432345*
+1j j(
+
+432345*
+1j j(
+
+433545*
+1r. r(:
+
+433045*
+1rZ r([
+
+435142*
+1r\ r(k
+
+432345*
+1w w(
+
+432345*
+1w w(
+
+433045*
+1w/ w(0
+
+435842*
+1w1 w(8
+
+432345*
+1y y(
+
+432345*
+1y y(
+
+432345*
+1| |(
+
+432345*
+1| |(

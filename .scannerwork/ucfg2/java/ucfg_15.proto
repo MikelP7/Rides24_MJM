@@ -1,0 +1,73 @@
+
+[dataAccess.DataAccess#getRidesByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;¥
+ßC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.javaé é(""3*Ò
+2
+ê ê(L
+J
+
+ê ê(+
+ddomain.Driver"__id*"
+
+__unknown_file (
+""çä
+
+ë ë(
+%1java.util.List"(domain.Driver#getRides()Ljava/util/List;*0
+
+__unknown_file (
+
+ddomain.Driver2
+getRides()]
+[
+
+ë ë(
+ljava.util.List"__id*2
+
+__unknown_file (
+
+%1java.util.List"#
+
+í í(
+
+ljava.util.List*‚
+3
+è è(	»≈
+
+è è(
+%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*6
+
+__unknown_file (
+
+typejava.lang.String*&
+
+__unknown_file (
+
+Driver2equals(Ljava/lang/Object;)*
+2
+1*Ÿ
+1
+ï
+ ï(86
+
+ï ï(
+%2java.util.Vector"java.util.Vectorf
+d
+
+ï
+ ï(
+%3"java.util.Vector#<init>()V*4
+
+__unknown_file (
+
+%2java.util.Vector"&
+
+ï ï(
+
+%2java.util.Vector:'
+
+é# é(0
+emailjava.lang.String:&
+
+é0 é(;
+typejava.lang.StringB
+dataAccess.DataAccessH

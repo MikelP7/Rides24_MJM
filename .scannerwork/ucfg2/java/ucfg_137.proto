@@ -1,0 +1,77 @@
+
+fbusinessLogic.BLFacadeImplementation#addRideUser(Ldomain/User;Ljava/lang/Integer;Ljava/lang/Integer;)Z√
+∂C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaë ë("1*·
+1
+í í(á
+Ñ
+
+í í(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+í í(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()á
+Ñ
+
+ì ì(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerùö
+
+ì ì(9
+%3boolean"WdataAccess.DataAccess#addRideUser(Ldomain/User;Ljava/lang/Integer;Ljava/lang/Integer;)Z*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*1
+
+__unknown_file (
+
+userdomain.User*:
+
+__unknown_file (
+
+rideNumjava.lang.Integer*8
+
+__unknown_file (
+
+seatsjava.lang.Integer2@addRideUser(Ldomain/User;Ljava/lang/Integer;Ljava/lang/Integer;)á
+Ñ
+
+î î(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+î î(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"
+
+ï ï(
+"":!
+
+ë ë(&
+userdomain.User:*
+
+ë' ë(7
+rideNumjava.lang.Integer:(
+
+ë8 ë(E
+seatsjava.lang.IntegerB(&
+$businessLogic.BLFacadeImplementationHX

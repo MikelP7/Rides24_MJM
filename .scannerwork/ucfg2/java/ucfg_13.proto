@@ -1,0 +1,76 @@
+
+[dataAccess.DataAccess#registerUser(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z´
+§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java÷ ÷("4*%
+2
+€ €("
+
+‚ ‚(
+""*
+3
+ÿ ÿ(vt
+
+ÿ ÿ(#
+%2boolean"java.util.List#isEmpty()Z*1
+
+__unknown_file (
+
+pjava.util.List2	isEmpty()*
+2
+1*¶
+4
+ø ø(.,
+
+ú ú(
+%0domain.User"domain.UserÄ
+Á
+
+ú ú(.
+%1"Kdomain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*/
+
+__unknown_file (
+
+%0domain.User*:
+
+__unknown_file (
+
+usernamejava.lang.String*:
+
+__unknown_file (
+
+passwordjava.lang.String*7
+
+__unknown_file (
+
+emailjava.lang.StringW
+U
+
+ú ú(/
+udomain.User"__id*/
+
+__unknown_file (
+
+%0domain.UserM
+K
+
+ı ı('
+pjava.util.List"__id*"
+
+__unknown_file (
+""*
+3
+1*%
+1
+„	 „("
+
+„ „(
+"":*
+
+÷ ÷(-
+usernamejava.lang.String:'
+
+÷. ÷(;
+emailjava.lang.String:*
+
+÷< ÷(K
+passwordjava.lang.StringB
+dataAccess.DataAccessHX

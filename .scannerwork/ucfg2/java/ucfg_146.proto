@@ -1,0 +1,65 @@
+
+CbusinessLogic.BLFacadeImplementation#getStopNames()Ljava/util/List;Ã
+¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaÏ Ï(!"1*Ø
+1
+Ð Ð(‡
+„
+
+Ð Ð(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+Ð Ð(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+Ñ Ñ(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager¦£
+
+Ñ Ñ(+
+%3java.util.List"4dataAccess.DataAccess#getStopNames()Ljava/util/List;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess2getStopNames()]
+[
+
+Ñ Ñ(,
+ljava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.List‡
+„
+
+Ò Ò(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+Ò Ò(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"#
+
+Ó Ó(
+
+ljava.util.ListB(&
+$businessLogic.BLFacadeImplementationH

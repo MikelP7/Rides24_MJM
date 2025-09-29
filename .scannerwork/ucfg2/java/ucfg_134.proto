@@ -1,0 +1,68 @@
+
+abusinessLogic.BLFacadeImplementation#loginUser(Ljava/lang/String;Ljava/lang/String;)Ldomain/User;Á
+¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.java{ {("1*ñ
+1| |(…
+‚
+| |(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerzx
+| |(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()…
+‚
+} }(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerØÕ
+} }(1
+%3domain.User"RdataAccess.DataAccess#loginUser(Ljava/lang/String;Ljava/lang/String;)Ldomain/User;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*:
+
+__unknown_file (
+
+usernamejava.lang.String*:
+
+__unknown_file (
+
+passwordjava.lang.String2/loginUser(Ljava/lang/String;Ljava/lang/String;)U
+S
+} }(2
+udomain.User"__id*/
+
+__unknown_file (
+
+%3domain.User…
+‚
+~ ~(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+~ ~(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"
+ (
+
+udomain.User:(
+{ {('
+usernamejava.lang.String:(
+{( {(7
+passwordjava.lang.StringB(&
+$businessLogic.BLFacadeImplementationH

@@ -1,0 +1,55 @@
+
+*domain.Driver#toString()Ljava/lang/String;ª
+ŸC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/domain/Driver.javaG G("1*Á
+1H	 H(d
+b
+H	 H(
+%0java.lang.String"__id*8
+
+__unknown_file (*
+domain.Driver"
+emailg
+e
+H	 H(
+%1java.lang.String"__concat*$
+H	 H(
+
+%0java.lang.String*
+H H(
+;c
+a
+H H(
+%2java.lang.String"__id*7
+
+__unknown_file (*
+domain.Driver"
+namez
+x
+H	 H(
+%3java.lang.String"__concat*$
+H	 H(
+
+%1java.lang.String*$
+H H(
+
+%2java.lang.Stringb
+`
+H H(
+%4java.util.List"__id*8
+
+__unknown_file (*
+domain.Driver"
+ridesx
+v
+H	 H(
+%5java.lang.String"__concat*$
+H	 H(
+
+%3java.lang.String*"
+H H(
+
+%4java.util.List"$
+H H(
+
+%5java.lang.StringB
+domain.DriverH

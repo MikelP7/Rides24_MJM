@@ -1,0 +1,86 @@
+
+~businessLogic.BLFacadeImplementation#getRidesByBothStops(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;Ã
+¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaù ù(&"1*ú	
+1
+ú ú(‡
+„
+
+ú ú(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+ú ú(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+û û(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerÀ½
+
+û û(B
+%3java.util.List"odataAccess.DataAccess#getRidesByBothStops(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*6
+
+__unknown_file (
+
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String*4
+
+__unknown_file (
+
+datejava.util.Date2IgetRidesByBothStops(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)a
+_
+
+û û(C
+ridesjava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.List‡
+„
+
+ü ü(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+ü ü(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"'
+
+ý ý(
+
+ridesjava.util.List:&
+
+ù' ù(3
+fromjava.lang.String:$
+
+ù4 ù(>
+tojava.lang.String:$
+
+ù? ù(H
+datejava.util.DateB(&
+$businessLogic.BLFacadeImplementationH

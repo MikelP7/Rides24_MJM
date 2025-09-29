@@ -1,0 +1,105 @@
+
+¢businessLogic.BLFacadeImplementation#addBooking(Ldomain/User;Ldomain/Ride;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Double;Ldomain/Stop;)ZÃ
+¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.java¦ ¦("1*®
+1
+§ §(‡
+„
+
+§ §(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+§ §(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+¨ ¨(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManagerêç
+
+¨ ¨(O
+%3boolean"“dataAccess.DataAccess#addBooking(Ldomain/User;Ldomain/Ride;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Double;Ldomain/Stop;)Z*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*1
+
+__unknown_file (
+
+userdomain.User*1
+
+__unknown_file (
+
+ridedomain.Ride*6
+
+__unknown_file (
+
+fromjava.lang.String*4
+
+__unknown_file (
+
+tojava.lang.String*;
+
+__unknown_file (
+
+numSeatsjava.lang.Integer*7
+
+__unknown_file (
+
+pricejava.lang.Double*1
+
+__unknown_file (
+
+stopdomain.Stop2|addBooking(Ldomain/User;Ldomain/Ride;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/lang/Double;Ldomain/Stop;)‡
+„
+
+© ©(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+© ©(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"
+
+ª ª(
+"":!
+
+¦ ¦(%
+userdomain.User:!
+
+¦& ¦(0
+ridedomain.Ride:&
+
+¦1 ¦(=
+fromjava.lang.String:$
+
+¦> ¦(I
+tojava.lang.String:+
+
+¦I ¦(Z
+numSeatsjava.lang.Integer:'
+
+¦[ ¦(h
+pricejava.lang.Double:!
+
+¦i ¦(r
+stopdomain.StopB(&
+$businessLogic.BLFacadeImplementationHX

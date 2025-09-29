@@ -1,0 +1,7 @@
+organization=mikelpallin
+projectKey=mikelpallin_monopolymikelpallin_rides24-is2
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.67777
+dashboardUrl=https://sonarcloud.io/dashboard?id=mikelpallin_monopolymikelpallin_rides24-is2
+ceTaskId=AZmGq5I-LhvXUsP1Sequ
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZmGq5I-LhvXUsP1Sequ

@@ -1,0 +1,72 @@
+
+]businessLogic.BLFacadeImplementation#getStopsByOriginName(Ljava/lang/String;)Ljava/util/List;Ã
+¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaã ã()"1*Æ
+1
+ä ä(‡
+„
+
+ä ä(
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+ä ä(
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+å å(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager”‘
+
+å å(9
+%3java.util.List"NdataAccess.DataAccess#getStopsByOriginName(Ljava/lang/String;)Ljava/util/List;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*8
+
+__unknown_file (
+
+originjava.lang.String2(getStopsByOriginName(Ljava/lang/String;)]
+[
+
+å å(:
+ljava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.List‡
+„
+
+æ æ(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+æ æ(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"#
+
+ç ç(
+
+ljava.util.List:(
+
+ã* ã(7
+originjava.lang.StringB(&
+$businessLogic.BLFacadeImplementationH

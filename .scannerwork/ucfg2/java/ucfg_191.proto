@@ -1,0 +1,112 @@
+
+(domain.Ride#toString()Ljava/lang/String;™
+ùC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/domain/Ride.java≈ ≈("1*¢	
+1
+∆	 ∆(j
+h
+
+∆	 ∆(
+%0java.lang.Integer"__id*;
+
+__unknown_file (*
+domain.Ride"
+
+rideNumbern
+l
+
+∆	 ∆(
+%1java.lang.String"__concat*'
+
+∆	 ∆(
+
+%0java.lang.Integer*
+
+∆ ∆(
+;c
+a
+
+∆ ∆(
+%2java.lang.String"__id*5
+
+__unknown_file (*
+domain.Ride"
+fromÄ
+~
+
+∆	 ∆(
+%3java.lang.String"__concat*&
+
+∆	 ∆(
+
+%1java.lang.String*&
+
+∆ ∆(
+
+%2java.lang.Stringm
+k
+
+∆	 ∆( 
+%4java.lang.String"__concat*&
+
+∆	 ∆(
+
+%3java.lang.String*
+
+∆ ∆( 
+;a
+_
+
+∆! ∆(#
+%5java.lang.String"__id*3
+
+__unknown_file (*
+domain.Ride"
+toÄ
+~
+
+∆	 ∆(#
+%6java.lang.String"__concat*&
+
+∆	 ∆( 
+
+%4java.lang.String*&
+
+∆! ∆(#
+
+%5java.lang.Stringm
+k
+
+∆	 ∆('
+%7java.lang.String"__concat*&
+
+∆	 ∆(#
+
+%6java.lang.String*
+
+∆$ ∆('
+;a
+_
+
+∆( ∆(,
+%8java.util.Date"__id*5
+
+__unknown_file (*
+domain.Ride"
+date~
+|
+
+∆	 ∆(,
+%9java.lang.String"__concat*&
+
+∆	 ∆('
+
+%7java.lang.String*$
+
+∆( ∆(,
+
+%8java.util.Date"&
+
+∆ ∆(-
+
+%9java.lang.StringB
+domain.RideH

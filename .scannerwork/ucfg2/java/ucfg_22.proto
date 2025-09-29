@@ -1,0 +1,65 @@
+
+<dataAccess.DataAccess#getBalanceByEmail(Ljava/lang/String;)F´
+§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.javaù ù("3*ç
+2
+ü ü(J
+H
+
+ü ü('
+udomain.User"__id*"
+
+__unknown_file (
+""tr
+
+ý
+ ý(
+%1float"domain.User#getBalance()F*.
+
+__unknown_file (
+
+udomain.User2getBalance()"
+
+ý ý(
+""*ß
+3
+ú ú(L
+J
+
+ú ú(*
+ddomain.Driver"__id*"
+
+__unknown_file (
+""x
+v
+
+û û(
+%0boolean"	__compare*
+
+û û(
+==*"
+
+û û(
+
+ddomain.Driver*
+
+û û(
+""*
+2
+1*Ÿ
+1
+ÿ	 ÿ(
+xv
+
+ÿ	 ÿ(
+%2float"domain.Driver#getBalance()F*0
+
+__unknown_file (
+
+ddomain.Driver2getBalance()"
+
+ÿ ÿ(
+"":'
+
+ù  ù(,
+emailjava.lang.StringB
+dataAccess.DataAccessHX

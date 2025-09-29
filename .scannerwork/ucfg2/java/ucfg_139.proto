@@ -1,0 +1,79 @@
+
+lbusinessLogic.BLFacadeImplementation#getBookingByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;Ã
+¶C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/businessLogic/BLFacadeImplementation.javaŸ Ÿ('"1*›	
+1
+   (‡
+„
+
+   (
+%0dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager|z
+
+   (
+
+%1void"dataAccess.DataAccess#open()V*9
+
+__unknown_file (
+
+%0dataAccess.DataAccess2open()‡
+„
+
+¡ ¡(
+%2dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManageréæ
+
+¡ ¡(<
+%3java.util.List"]dataAccess.DataAccess#getBookingByEmail(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;*9
+
+__unknown_file (
+
+%2dataAccess.DataAccess*7
+
+__unknown_file (
+
+emailjava.lang.String*6
+
+__unknown_file (
+
+typejava.lang.String27getBookingByEmail(Ljava/lang/String;Ljava/lang/String;)]
+[
+
+¡ ¡(=
+ljava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.List‡
+„
+
+¢ ¢(
+%4dataAccess.DataAccess"__id*S
+
+__unknown_file (7*5&
+$businessLogic.BLFacadeImplementation"
+	dbManager~|
+
+¢ ¢(
+
+%5void"dataAccess.DataAccess#close()V*9
+
+__unknown_file (
+
+%4dataAccess.DataAccess2close()"#
+
+£ £(
+
+ljava.util.List:'
+
+Ÿ) Ÿ(6
+emailjava.lang.String:&
+
+Ÿ7 Ÿ(B
+typejava.lang.StringB(&
+$businessLogic.BLFacadeImplementationH

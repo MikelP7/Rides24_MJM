@@ -1,0 +1,40 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-09-24 16:41:11 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Tercero\Primer Cuatri\IS2\Proyecto Rides24\Rides24_IT3.zip_expanded\Rides24\src\main\resources\rides.temp' is opened by 18616@MSI-M1K3L
+
+[2025-09-24 16:41:11 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2025-09-24 16:41:11 #3 type] 
+Type domain.Booking is not enhanced.
+
+[2025-09-24 16:41:11 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2025-09-24 16:41:11 #5 type] 
+Type domain.Stop is not enhanced.
+
+[2025-09-24 16:41:11 #6 type] 
+Type domain.User is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-09-24 16:41:51 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Tercero\Primer Cuatri\IS2\Proyecto Rides24\Rides24_IT3.zip_expanded\Rides24\src\main\resources\rides.temp' is opened by 21628@MSI-M1K3L
+
+[2025-09-24 16:41:51 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2025-09-24 16:41:51 #3 type] 
+Type domain.Booking is not enhanced.
+
+[2025-09-24 16:41:51 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2025-09-24 16:41:51 #5 type] 
+Type domain.Stop is not enhanced.
+
+[2025-09-24 16:41:51 #6 type] 
+Type domain.User is not enhanced.
+

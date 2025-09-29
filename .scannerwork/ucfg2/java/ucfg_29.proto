@@ -1,0 +1,26 @@
+
+odataAccess.DataAccess#getRidesByBothStops(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;´
+§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.javaà à(&"1*‹
+1
+á á(Q
+O
+
+å å(+
+ridesjava.util.List"__id*"
+
+__unknown_file (
+"""'
+
+æ æ(
+
+ridesjava.util.List:&
+
+à' à(3
+fromjava.lang.String:$
+
+à4 à(>
+tojava.lang.String:$
+
+à? à(H
+datejava.util.DateB
+dataAccess.DataAccessH

@@ -1,0 +1,150 @@
+
+)domain.Driver#equals(Ljava/lang/Object;)Z™
+üC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/domain/Driver.javay y("startingBlock*%
+2
+Ç
+ Ç("
+
+Ç Ç(
+""*Â
+3
+Ä Ä(c
+a
+
+Ä Ä(
+otherdomain.Driver"__id*5
+
+__unknown_file (
+
+objjava.lang.Objectf
+d
+
+Å Å(
+%5java.lang.String"__id*8
+
+__unknown_file (*
+domain.Driver"
+emailm
+k
+
+Å Å(
+%6java.lang.String"__id*?
+
+__unknown_file (#*!
+
+otherdomain.Driver"
+emailè
+å
+
+Å Å(
+%7boolean"	__compare*
+
+Å Å(
+!=*&
+
+Å Å(
+
+%5java.lang.String*&
+
+Å Å(
+
+%6java.lang.String*
+2
+1*Ñ
+startingBlocky y("ä
+á
+x x(
+
+%8"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+objjava.lang.ObjectW
+U
+y y(!
+objjava.lang.Object"__annotation*"
+
+__unknown_file (
+
+%8*
+9*!
+4
+ ("
+ (
+""*≈
+5~ ~(çä
+~ ~(
+%2java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*-
+
+__unknown_file (
+domain.Driver2
+getClass()ïí
+~ ~("
+%3java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*5
+
+__unknown_file (
+
+objjava.lang.Object2
+getClass()Ö
+Ç
+~ ~("
+%4boolean"	__compare*
+~ ~(
+!=*#
+~ ~(
+
+%2java.lang.Class*#
+~ ~("
+
+%3java.lang.Class*
+3
+4*!
+6}
+ }("
+} }(
+""*å
+7| |(	u
+s
+| |(
+%1boolean"	__compare*
+|
+ |(
+==*%
+| |(	
+
+objjava.lang.Object*
+| |(
+""*
+5
+6*!
+8{
+ {("
+{ {(
+""*ò
+9z z(
+Ä
+~
+z z(
+%0boolean"	__compare*
+z z(
+==*
+z z(
+
+domain.Driver*%
+z z(
+
+objjava.lang.Object*
+7
+8*%
+1
+É	 É("
+
+É É(
+"":#
+y y(!
+objjava.lang.ObjectB
+domain.DriverHX

@@ -3,5 +3,5 @@ projectKey=mikelpallin_rides24-is2
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.67857
 dashboardUrl=https://sonarcloud.io/dashboard?id=mikelpallin_rides24-is2
-ceTaskId=AZmV9fCJVFUFDCC5RffF
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZmV9fCJVFUFDCC5RffF
+ceTaskId=AZmalk7ADONcU4zLZinz
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZmalk7ADONcU4zLZinz

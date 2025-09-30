@@ -2,6 +2,7 @@ package dataAccess;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.logging.Logger;
 import java.net.NoRouteToHostException;
 import java.nio.file.Files;
@@ -39,6 +40,8 @@ public class DataAccess  {
 	private  EntityManager  db;
 	private  EntityManagerFactory emf;
 	Logger logger = Logger.getLogger(getClass().getName());
+	
+	private ArrayList<String> ciudades = new ArrayList<String>(); 
 
 
 	ConfigXML c=ConfigXML.getInstance();
@@ -100,18 +103,24 @@ public class DataAccess  {
 			User user1 = new User("Mikel Pallin","111","mikel@test.com");
 
 			
-			//Create rides
-			driver1.addRide("Donostia", "Bilbo", UtilDate.newDate(year,month,15), 4, 7);
-			driver1.addRide("Donostia", "Gazteiz", UtilDate.newDate(year,month,6), 4, 8);
-			driver1.addRide("Bilbo", "Donostia", UtilDate.newDate(year,month,25), 4, 4);
-
-			driver1.addRide("Donostia", "Iruña", UtilDate.newDate(year,month,7), 4, 8);
+			ciudades.add("Donostia"); 	//0
+			ciudades.add("Bilbo");		//1
+			ciudades.add("Gasteiz");	//2
+			ciudades.add("iruña");		//3
+			ciudades.add("Eibar");		//4
 			
-			driver2.addRide("Donostia", "Bilbo", UtilDate.newDate(year,month,15), 3, 3);
-			driver2.addRide("Bilbo", "Donostia", UtilDate.newDate(year,month,25), 2, 5);
-			driver2.addRide("Eibar", "Gasteiz", UtilDate.newDate(year,month,6), 2, 5);
+			//Create rides
+			driver1.addRide(ciudades.get(0), ciudades.get(1), UtilDate.newDate(year,month,15), 4, 7);
+			driver1.addRide(ciudades.get(0), ciudades.get(2), UtilDate.newDate(year,month,6), 4, 8);
+			driver1.addRide(ciudades.get(1), ciudades.get(0), UtilDate.newDate(year,month,25), 4, 4);
 
-			driver3.addRide("Bilbo", "Donostia", UtilDate.newDate(year,month,14), 1, 3);
+			driver1.addRide(ciudades.get(0), ciudades.get(3), UtilDate.newDate(year,month,7), 4, 8);
+			
+			driver2.addRide(ciudades.get(0), ciudades.get(1), UtilDate.newDate(year,month,15), 3, 3);
+			driver2.addRide(ciudades.get(1), ciudades.get(0), UtilDate.newDate(year,month,25), 2, 5);
+			driver2.addRide(ciudades.get(4), ciudades.get(2), UtilDate.newDate(year,month,6), 2, 5);
+
+			driver3.addRide(ciudades.get(1), ciudades.get(0), UtilDate.newDate(year,month,14), 1, 3);
 			
 //			driver4.addRide("A", "B", UtilDate.newDate(year,month,14), 4, 3);
 //			driver4.addRide("B", "C", UtilDate.newDate(year,month,14), 4, 3);

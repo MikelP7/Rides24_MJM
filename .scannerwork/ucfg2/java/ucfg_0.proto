@@ -1,10 +1,10 @@
 
 (dataAccess.DataAccess#%field_initializer
-__unknown_file ("1*©
+__unknown_file ("1*®
 1 (è
 å
 ²
-§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java) )(7
+§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java* *(7
 %0java.util.logging.Logger"Pjava.util.logging.Logger#getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;*(
  ("
 java.util.logging.Logger*
@@ -12,27 +12,46 @@
 ""‘
 Ž
 ²
-§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java) )(8#
+§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java* *(8#
 dataAccess.DataAccess"
 logger"__id*,
  ( 
 
-%0java.util.logging.LoggerÀ
+%0java.util.logging.Loggerèå
+²
+§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java,* ,(;
+%1java.util.ArrayList"java.util.ArrayList†
+ƒ
+²
+§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java,& ,(=
+%2"java.util.ArrayList#<init>()V*'
+ (
+
+%1java.util.ArrayListŽ
+‹
+²
+§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java, ,(>%
+dataAccess.DataAccess"
+
+ciudades"__id*'
+ (
+
+%1java.util.ArrayListÀ
 ½
 ²
-§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java, ,($
-%1configuration.ConfigXML">configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;*'
+§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java/ /($
+%3configuration.ConfigXML">configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;*'
  ("
 configuration.ConfigXML‹
 ˆ
 ²
-§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java, ,(%
+§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java/ /(%
 dataAccess.DataAccess"
 c"__id*+
  (
 
-%1configuration.ConfigXML"É
+%3configuration.ConfigXML"É
 ±
-§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java& î(
+§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.java' ÷(
 implicit returnB
 dataAccess.DataAccess

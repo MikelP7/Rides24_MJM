@@ -1,18 +1,18 @@
 
 WdataAccess.DataAccess#addRideUser(Ldomain/User;Ljava/lang/Integer;Ljava/lang/Integer;)Z¥
-ßC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.javaè è("1*%
+ßC:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.javaò ò("1*%
 1
-ê	 ê("
+ô	 ô("
 
-ê ê(
+ô ô(
 "":!
 
-è è(&
+ò ò(&
 userdomain.User:*
 
-è' è(7
+ò' ò(7
 rideNumjava.lang.Integer:(
 
-è8 è(E
+ò8 ò(E
 seatsjava.lang.IntegerB
 dataAccess.DataAccessHX

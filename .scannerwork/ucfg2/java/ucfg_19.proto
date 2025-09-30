@@ -1,20 +1,20 @@
 
 @dataAccess.DataAccess#findRide(Ljava/lang/Integer;)Ldomain/Ride;´
-§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.javaÙ Ù("1*}
+§C:/Users/mikel/OneDrive/Escritorio/UNI/Asignaturas Tercero/Primer Cuatri/IS2/Proyecto Rides24/Rides24_IT3.zip_expanded/Rides24/src/main/java/dataAccess/DataAccess.javaâ â("1*}
 1
-Ú Ú(J
+ã ã(J
 H
 
-Ú Ú(#
+ã ã(#
 rdomain.Ride"__id*"
 
 __unknown_file (
 """ 
 
-Û Û(
+ä ä(
 
 rdomain.Ride:%
 
-Ù Ù( 
+â â( 
 idjava.lang.IntegerB
 dataAccess.DataAccessH

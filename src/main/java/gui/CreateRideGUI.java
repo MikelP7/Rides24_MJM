@@ -288,12 +288,7 @@ public class CreateRideGUI extends JFrame {
 				jLabelMsg.setForeground(new Color(0,255,0));
 				jLabelMsg.setText(ResourceBundle.getBundle("Etiquetas").getString("CreateRideGUI.RideCreated"));
 
-			} catch (RideMustBeLaterThanTodayException e1) {
-				// TODO Auto-generated catch block
-				jLabelMsg.setForeground(new Color(255,0,0));
-				jLabelMsg.setText(e1.getMessage());
-			} catch (RideAlreadyExistException e1) {
-				// TODO Auto-generated catch block
+			} catch (RideMustBeLaterThanTodayException | RideAlreadyExistException e1) {
 				jLabelMsg.setForeground(new Color(255,0,0));
 				jLabelMsg.setText(e1.getMessage());
 			}

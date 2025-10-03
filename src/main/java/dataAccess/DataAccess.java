@@ -121,10 +121,7 @@ public class DataAccess  {
 			driver2.addRide(ciudades.get(4), ciudades.get(2), UtilDate.newDate(year,month,6), 2, 5);
 
 			driver3.addRide(ciudades.get(1), ciudades.get(0), UtilDate.newDate(year,month,14), 1, 3);
-			
-//			driver4.addRide("A", "B", UtilDate.newDate(year,month,14), 4, 3);
-//			driver4.addRide("B", "C", UtilDate.newDate(year,month,14), 4, 3);
-			
+						
 			
 			if(!db.contains(driver1)) db.persist(driver1);		
 			if(!db.contains(driver2)) db.persist(driver2);	

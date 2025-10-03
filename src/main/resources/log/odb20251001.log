@@ -1,0 +1,20 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-01 16:52:38 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Tercero\Primer Cuatri\IS2\Proyecto Rides24\Rides24_IT3.zip_expanded\Rides24\src\main\resources\rides.temp' is opened by 2652@MSI-M1K3L
+
+[2025-10-01 16:52:38 #2 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-01 16:52:38 #3 type] 
+Type domain.Booking is not enhanced.
+
+[2025-10-01 16:52:38 #4 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-01 16:52:38 #5 type] 
+Type domain.Stop is not enhanced.
+
+[2025-10-01 16:52:38 #6 type] 
+Type domain.User is not enhanced.
+

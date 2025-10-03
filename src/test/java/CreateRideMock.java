@@ -70,7 +70,7 @@ public class CreateRideMock {
 	Driver driver;
 	
 	@Test
-	//sut.createRide:  The Driver("iker driver", "driver1@gmail.com") HAS one ride "from" "to" in that "date". 
+	///sut.createRide:  The Driver("iker driver", "driver1@gmail.com") HAS one ride "from" "to" in that "date". 
 	public void test1() {
 
 

@@ -107,10 +107,7 @@ public class GetStopsAndDestinationsTest {
 			if(res.isEmpty()) {
 				assertTrue(true);
 			}
-			else {
-				fail();
-			}
-			
+			fail();			
 		} 
 		catch (Exception e) {
 			System.out.println(e.toString());

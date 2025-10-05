@@ -63,6 +63,20 @@ public class TestBusinessLogic {
 			return r;
 		}
 		
+		public boolean addStopToRide(Ride ride, String name, float price, int num) {
+			dbManagerTest.open();
+			boolean b = dbManagerTest.addStopToRide(ride, name, price, num);
+			dbManagerTest.close();
+			return b;
+		}
+		
+		public boolean removeStop(Ride r) {
+			dbManagerTest.open();
+			boolean b = dbManagerTest.removeStop(r);
+			dbManagerTest.close();
+			return b;
+		}
+		
 
 
 }

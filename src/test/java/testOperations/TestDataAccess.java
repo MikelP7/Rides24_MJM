@@ -3,6 +3,7 @@ package testOperations;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Vector;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -11,6 +12,7 @@ import javax.persistence.Persistence;
 import configuration.ConfigXML;
 import domain.Driver;
 import domain.Ride;
+import domain.Stop;
 
 
 public class TestDataAccess {
@@ -71,7 +73,7 @@ public class TestDataAccess {
 		Driver driver=null;
 			db.getTransaction().begin();
 			try {
-			    driver=new Driver(name,password,email);
+			    driver=new Driver(email,password,name);
 				db.persist(driver);
 				db.getTransaction().commit();
 			}
@@ -114,6 +116,7 @@ public class TestDataAccess {
 			} else 
 			return false;
 		}
+		
 		public Ride removeRide(String email, String from, String to, Date date ) {
 			System.out.println(">> TestDataAccess: removeRide");
 			Driver d = db.find(Driver.class, email);
@@ -127,7 +130,46 @@ public class TestDataAccess {
 			return null;
 
 		}
+		
+		public boolean addStopToRide(Ride ride, String name, float price, int num) {
+			db.getTransaction().begin();
+			Ride r = db.find(Ride.class, ride.getRideNumber());
+			int id = 0;
+			while (db.find(Stop.class, id) != null) {
+				id++;
+			}
+			
+			Stop s = new Stop(id,num,r,name,price,r.getDate());
+			r.getStops().add(s);
+			db.persist(s);
+			db.getTransaction().commit();
+			return true;
+		}
+		
+		public boolean removeStop(Ride r) {
+			if (r.getStops()!=null) {
+				db.getTransaction().begin();
+				r.setStops(new Vector<Stop>());
+				db.getTransaction().commit();
+				return true;
 
+			} else 
+			return false;
+		}
+
+		public boolean addRideToDriver(String driverEmail ,Ride r) {
+			Driver d = db.find(Driver.class, driverEmail);
+			if (d!=null) {
+				db.getTransaction().begin();
+				d.addRide(r.getFrom(), r.getTo(), r.getDate(), r.getnPlaces(), r.getPrice());
+				db.persist(d);
+				db.persist(r);
+				db.getTransaction().commit();
+				return true;
+
+			} else 
+			return false;
+		}
 
 		
 }

@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Vector;
 
+//import domain.Booking;
 import domain.Ride;
 import domain.Stop;
 import domain.User;

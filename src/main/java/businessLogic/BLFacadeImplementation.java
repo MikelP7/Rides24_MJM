@@ -3,7 +3,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.ResourceBundle;
 import java.util.Vector;
-import java.util.logging.Logger;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
@@ -24,20 +23,21 @@ import exceptions.RideAlreadyExistException;
 @WebService(endpointInterface = "businessLogic.BLFacade")
 public class BLFacadeImplementation  implements BLFacade {
 	DataAccess dbManager;
-	Logger logger = Logger.getLogger(getClass().getName());
 
 	public BLFacadeImplementation()  {		
-		logger.info("Creating BLFacadeImplementation instance");
+		System.out.println("Creating BLFacadeImplementation instance");
+		
 		
 		    dbManager = new DataAccess();
 		    
 		//dbManager.close();
 
+		
 	}
 	
     public BLFacadeImplementation(DataAccess da)  {
 		
-		logger.info("Creating BLFacadeImplementation instance with DataAccess parameter");
+		System.out.println("Creating BLFacadeImplementation instance with DataAccess parameter");
 		ConfigXML c=ConfigXML.getInstance();
 		
 		dbManager=da;		

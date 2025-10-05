@@ -1,32 +1,32 @@
-//import static org.junit.Assert.assertEquals;
-//import static org.junit.Assert.assertNotNull;
-//import static org.junit.Assert.assertNull;
-//import static org.junit.Assert.assertTrue;
-//import static org.junit.Assert.fail;
-//
-//import java.text.ParseException;
-//import java.text.SimpleDateFormat;
-//import java.util.Date;
-//
-//import org.junit.Test;
-//
-//import dataAccess.DataAccess;
-//import domain.Ride;
-//import exceptions.RideAlreadyExistException;
-//import exceptions.RideMustBeLaterThanTodayException;
-//import testOperations.TestDataAccess;
-//import domain.Driver;
-//
-//public class CreateRideDAB {
-//
-//	 //sut:system under test
-//	 static DataAccess sut=new DataAccess();
-//	 
-//	 //additional operations needed to execute the test 
-//	 static TestDataAccess testDA=new TestDataAccess();
-//
-//	private Driver driver; 
-//
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.junit.Test;
+
+import dataAccess.DataAccess;
+import domain.Ride;
+import exceptions.RideAlreadyExistException;
+import exceptions.RideMustBeLaterThanTodayException;
+import testOperations.TestDataAccess;
+import domain.Driver;
+
+public class CreateRideDAB {
+
+	 //sut:system under test
+	 static DataAccess sut=new DataAccess();
+	 
+	 //additional operations needed to execute the test 
+	 static TestDataAccess testDA=new TestDataAccess();
+
+	private Driver driver; 
+
 //	@Test
 //	//sut.createRide:  The Driver("iker driver", "driver1@gmail.com") HAS one ride "from" "to" in that "date". 
 //	public void test1() {
@@ -40,12 +40,13 @@
 //		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 //		Date rideDate=null;;
 //		try {
-//			rideDate = sdf.parse("05/10/2025");
-//		} catch (ParseException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}	
-//		boolean existDriver=false;
+////			rideDate = sdf.parse("05/10/2025");
+////		} catch (ParseException e) {
+////			// TODO Auto-generated catch block
+////			e.printStackTrace();
+////		}	
+////		boolean existDriver=false;
+////		
 ////		try {
 ////			
 ////			//define parameters
@@ -216,46 +217,46 @@
 ////		} catch (ParseException e) {
 ////			// TODO Auto-generated catch block
 ////			e.printStackTrace();
-////		}	
-////		Ride ride=null;
-////		try {
-////			//invoke System Under Test (sut)  
-////			sut.open();
-////			 ride=sut.createRide(rideFrom, rideTo, rideDate, 0, 0, driverEmail);
-////			sut.close();			
-////			
-////			//verify the results
-////			assertNull(ride);
-////			
-////			//q datubasean dago
-////			testDA.open();
-////			boolean exist=testDA.existRide(driverEmail,rideFrom, rideTo, rideDate);
-////				
-////			assertTrue(!exist);
-////			testDA.close();
-////			
-////		   } catch (RideAlreadyExistException e) {
-////			// TODO Auto-generated catch block
-////			// if the program goes to this point fail  
-////			fail();
-////			} catch (RideMustBeLaterThanTodayException e) {
-////
-////			// TODO Auto-generated catch block
-////			fail();
-////			}  catch (Exception e) {
-////			// TODO Auto-generated catch block
-////			fail();
-////			}
-////		
-//		
-////		finally {   
-////
-////			testDA.open();
-////			if (testDA.existRide(driverEmail,rideFrom, rideTo, rideDate))
-////				testDA.removeRide(driverEmail, rideFrom, rideTo, rideDate);
-////			testDA.close();
-////			
-////		        }
-////		   }
-//}
+//		}	
+//		Ride ride=null;
+//		try {
+//			//invoke System Under Test (sut)  
+//			sut.open();
+//			 ride=sut.createRide(rideFrom, rideTo, rideDate, 0, 0, driverEmail);
+//			sut.close();			
+//			
+//			//verify the results
+//			assertNull(ride);
+//			
+//			//q datubasean dago
+//			testDA.open();
+//			boolean exist=testDA.existRide(driverEmail,rideFrom, rideTo, rideDate);
+//				
+//			assertTrue(!exist);
+//			testDA.close();
+//			
+//		   } catch (RideAlreadyExistException e) {
+//			// TODO Auto-generated catch block
+//			// if the program goes to this point fail  
+//			fail();
+//			} catch (RideMustBeLaterThanTodayException e) {
 //
+//			// TODO Auto-generated catch block
+//			fail();
+//			}  catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			fail();
+//			}
+//		
+//		
+//		finally {   
+//
+//			testDA.open();
+//			if (testDA.existRide(driverEmail,rideFrom, rideTo, rideDate))
+//				testDA.removeRide(driverEmail, rideFrom, rideTo, rideDate);
+//			testDA.close();
+//			
+//		        }
+//		   }
+}
+

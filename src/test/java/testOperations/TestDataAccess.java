@@ -1,7 +1,9 @@
 package testOperations;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 
@@ -88,6 +90,7 @@ public class TestDataAccess {
 
 	}
 		
+
 		public Driver addDriverWithRide(String email, String password, String name, String from, String to,  Date date, int nPlaces, float price) {
 			System.out.println(">> TestDataAccess: addDriverWithRide");
 				Driver driver=null;
@@ -118,7 +121,6 @@ public class TestDataAccess {
 		}
 		
 		public Ride removeRide(String email, String from, String to, Date date ) {
-			System.out.println(">> TestDataAccess: removeRide");
 			Driver d = db.find(Driver.class, email);
 			if (d!=null) {
 				db.getTransaction().begin();
@@ -129,6 +131,26 @@ public class TestDataAccess {
 			} else 
 			return null;
 
+		}
+		
+		public boolean removeAllRides(String email) {
+		    Driver d = db.find(Driver.class, email);
+		    if (d != null) {
+		        db.getTransaction().begin();
+
+		        List<Ride> ridesToRemove = d.getRides();
+		        
+		        for (Ride ride : ridesToRemove) {
+		            d.getRides().remove(ride);
+		            Ride r = db.find(Ride.class, ride.getRideNumber());
+		            r.setStops(null);
+		            db.remove(r);
+		        }
+
+		        db.getTransaction().commit();
+		        return true;
+		    }
+		    return false;
 		}
 		
 		public boolean addStopToRide(Ride ride, String name, float price, int num) {
@@ -146,10 +168,14 @@ public class TestDataAccess {
 			return true;
 		}
 		
-		public boolean removeStop(Ride r) {
-			if (r.getStops()!=null) {
+		public boolean removeStop(Ride ride) {
+			if (ride.getStops()!=null) {
 				db.getTransaction().begin();
-				r.setStops(new Vector<Stop>());
+				Ride r = db.find(Ride.class, ride.getRideNumber());
+				for (Stop stop : r.getStops()) {
+					Stop s = db.find(Stop.class, stop.getStopId());
+					db.remove(s);
+				}
 				db.getTransaction().commit();
 				return true;
 

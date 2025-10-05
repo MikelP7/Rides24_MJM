@@ -28,7 +28,7 @@ public class Ride implements Serializable {
 	private Date date;
 	private float price;
 	private Driver driver;  
-	@OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
+	@OneToMany(mappedBy = "ride", fetch = FetchType.EAGER, cascade = CascadeType.ALL, orphanRemoval = true)
 	private List<Stop> stops = new Vector<Stop>();
 	
 

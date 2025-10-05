@@ -778,3 +778,26 @@ Type domain.Stop is not enhanced.
 [2025-10-05 19:19:54 #7 type] 
 Type domain.User is not enhanced.
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-10-05 19:22:17 #1 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Tercero\Primer Cuatri\IS2\Proyecto Rides24\Rides24_IT3.zip_expanded\Rides24\src\main\resources\rides.temp' has been recovered (tr. 216-226)
+
+[2025-10-05 19:22:17 #2 store] 
+Database 'C:\Users\mikel\OneDrive\Escritorio\UNI\Asignaturas Tercero\Primer Cuatri\IS2\Proyecto Rides24\Rides24_IT3.zip_expanded\Rides24\src\main\resources\rides.temp' is opened by 7760@MSI-M1K3L
+
+[2025-10-05 19:22:17 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2025-10-05 19:22:17 #4 type] 
+Type domain.Booking is not enhanced.
+
+[2025-10-05 19:22:17 #5 type] 
+Type domain.Ride is not enhanced.
+
+[2025-10-05 19:22:17 #6 type] 
+Type domain.Stop is not enhanced.
+
+[2025-10-05 19:22:17 #7 type] 
+Type domain.User is not enhanced.
+

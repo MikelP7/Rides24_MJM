@@ -1,3 +1,4 @@
+package testMetodos;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
@@ -206,7 +207,7 @@ public class GetStopsAndDestinationsTest {
 			sut.close();
 			System.out.println(res);
 			
-			if(res.contains("Iru") && res.contains("Tol")) {
+			if(res.contains("Iru") && res.contains("Tol") && res.contains("Gas")) {
 				assertTrue(true);
 			}
 			else {

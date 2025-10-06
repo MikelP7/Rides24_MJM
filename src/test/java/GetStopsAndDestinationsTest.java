@@ -3,17 +3,13 @@ import static org.junit.Assert.fail;
 
 import java.sql.Date;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Vector;
 
 import org.junit.Test;
 
 import dataAccess.DataAccess;
 import domain.*;
-import exceptions.RideAlreadyExistException;
-import exceptions.RideMustBeLaterThanTodayException;
 import testOperations.TestDataAccess;
 
 public class GetStopsAndDestinationsTest {
@@ -23,17 +19,15 @@ public class GetStopsAndDestinationsTest {
 	 
 	 //additional operations needed to execute the test 
 	 static TestDataAccess testDA=new TestDataAccess();
-
-	private Driver driver; 
 	
 	@Test
-	public void test1CB() throws ParseException {
+	public void test1CB() {
 		
 		String driverEmail="driverTest1@gmail.com";
 		String driverName="DriverTest1";
 		String driverPassword="test1";
 		
-		Date rideDate = Date.valueOf("2025-10-10");;
+		Date rideDate = Date.valueOf("2025-10-10");
 		
 		float price = (float) 20.50;
 		
@@ -126,7 +120,7 @@ public class GetStopsAndDestinationsTest {
 		String driverName="DriverTest1";
 		String driverPassword="test1";
 		
-		Date rideDate = Date.valueOf("2025-10-10");;
+		Date rideDate = Date.valueOf("2025-10-10");
 		
 		float price = (float) 20.50;
 		
@@ -174,7 +168,7 @@ public class GetStopsAndDestinationsTest {
 	
 	
 	@Test
-	public void test4CB() throws ParseException {
+	public void test4CB() {
 		
 
 		String driverEmail="driverTest1@gmail.com";

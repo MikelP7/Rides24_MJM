@@ -3,6 +3,8 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -27,7 +29,7 @@ public class GetThisMonthDatesWithRidesBDBlackTest {
     static TestDataAccess testDA = new TestDataAccess();
     
     @Test
-    public void test1() {
+    public void test1() throws ParseException {
 
         String driverEmail = "driver@gmail.com";
         String driverName = "Driver";
@@ -35,10 +37,8 @@ public class GetThisMonthDatesWithRidesBDBlackTest {
         String from = "A";
         String to = "B";
 
-        Calendar cal = Calendar.getInstance();
-        cal.set(2026, Calendar.OCTOBER, 5, 0, 0, 0);
-        cal.set(Calendar.MILLISECOND, 0);
-        Date rideDate = cal.getTime();
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        Date rideDate = sdf.parse("05/10/2026");
         
         float price = (float) 20.00;
 
@@ -77,7 +77,7 @@ public class GetThisMonthDatesWithRidesBDBlackTest {
 
     
 	@Test
-	public void test2() {
+	public void test2() throws ParseException {
 
 	    String driverEmail = "driver@gmail.com";
 	    String driverName = "Driver";
@@ -85,10 +85,8 @@ public class GetThisMonthDatesWithRidesBDBlackTest {
 	    String from = "A";
 	    String to = "C";
 
-	    Calendar cal = Calendar.getInstance();
-	    cal.set(2026, Calendar.OCTOBER, 5, 0, 0, 0);
-	    cal.set(Calendar.MILLISECOND, 0);
-	    Date rideDate = cal.getTime();
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        Date rideDate = sdf.parse("05/10/2026");
 	    
 	    float price = (float) 20.00;
 
@@ -127,7 +125,7 @@ public class GetThisMonthDatesWithRidesBDBlackTest {
 	
 
 	@Test
-	public void test3() {
+	public void test3() throws ParseException {
 
 	    String driverEmail = "driverq3@gmail.com";
 	    String driverName = "DriverQ3";
@@ -135,10 +133,8 @@ public class GetThisMonthDatesWithRidesBDBlackTest {
 	    String from = "C";
 	    String to = "D";
 
-	    Calendar cal = Calendar.getInstance();
-	    cal.set(2026, Calendar.OCTOBER, 5, 0, 0, 0);
-	    cal.set(Calendar.MILLISECOND, 0);
-	    Date rideDate = cal.getTime();
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        Date rideDate = sdf.parse("05/10/2026");
 	    
 	    float price = (float) 20.00;
 
@@ -179,15 +175,13 @@ public class GetThisMonthDatesWithRidesBDBlackTest {
 
 	
 	@Test
-	public void test4() {
+	public void test4() throws ParseException {
 
 	    String from = "A";
 	    String to = "B";
 
-	    Calendar cal = Calendar.getInstance();
-	    cal.set(2026, Calendar.OCTOBER, 5, 0, 0, 0);
-	    cal.set(Calendar.MILLISECOND, 0);
-	    Date date = cal.getTime();
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        Date date = sdf.parse("05/10/2026");
 
 	    try {
 	        sut.open();
@@ -209,16 +203,13 @@ public class GetThisMonthDatesWithRidesBDBlackTest {
 	}
 
 	@Test
-	public void test5() {
+	public void test5() throws ParseException {
 
 	    String from = null;
 	    String to = "B";
 
-	    Calendar cal = Calendar.getInstance();
-	    cal.set(2026, Calendar.OCTOBER, 5, 0, 0, 0);
-	    cal.set(Calendar.MILLISECOND, 0);
-	    Date date = cal.getTime();
-
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        Date date = sdf.parse("05/10/2026");
 	    try {
 	        sut.open();
 	        List<Date> res = sut.getThisMonthDatesWithRides(from, to, date);
@@ -239,15 +230,13 @@ public class GetThisMonthDatesWithRidesBDBlackTest {
 	}
 
 	@Test
-	public void test6() {
+	public void test6() throws ParseException {
 
 	    String from = "A";
 	    String to = null;
 
-	    Calendar cal = Calendar.getInstance();
-	    cal.set(2026, Calendar.OCTOBER, 5, 0, 0, 0);
-	    cal.set(Calendar.MILLISECOND, 0);
-	    Date date = cal.getTime();
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        Date date = sdf.parse("05/10/2026");
 
 	    try {
 	        sut.open();
@@ -288,14 +277,12 @@ public class GetThisMonthDatesWithRidesBDBlackTest {
 	}
 
 	@Test
-	public void test8() {
+	public void test8() throws ParseException {
 
 	    String from = "A";
 	    String to = "A"; 
-	    Calendar cal = Calendar.getInstance();
-	    cal.set(2026, Calendar.OCTOBER, 5, 0, 0, 0);
-	    cal.set(Calendar.MILLISECOND, 0);
-	    Date date = cal.getTime();
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        Date date = sdf.parse("05/10/2026");
 
 	    List<Date> res = null;
 

@@ -122,9 +122,6 @@ public class GetStopsAndDestinationsMockBlackTest {
 			Mockito.when(db.createQuery("SELECT r FROM Ride r WHERE r.stops.name=?1", Ride.class)).thenReturn(query1);
 	        Mockito.when(db.createQuery("SELECT r FROM Ride r WHERE r.from=?2", Ride.class)).thenReturn(query2);
 	        
-	        Mockito.when(query1.setParameter(1, from)).thenReturn(query1);
-	        Mockito.when(query2.setParameter(2, from)).thenReturn(query2);
-	        
 	        Mockito.when(query1.getResultList()).thenReturn(resq1);
 	        Mockito.when(query2.getResultList()).thenReturn(resq2);
 			
@@ -170,9 +167,6 @@ public class GetStopsAndDestinationsMockBlackTest {
 			
 			Mockito.when(db.createQuery("SELECT r FROM Ride r WHERE r.stops.name=?1", Ride.class)).thenReturn(query1);
 	        Mockito.when(db.createQuery("SELECT r FROM Ride r WHERE r.from=?2", Ride.class)).thenReturn(query2);
-	        
-	        Mockito.when(query1.setParameter(1, from)).thenReturn(query1);
-	        Mockito.when(query2.setParameter(2, from)).thenReturn(query2);
 	        
 	        Mockito.when(query1.getResultList()).thenReturn(resq1);
 	        Mockito.when(query2.getResultList()).thenReturn(resq2);
@@ -238,9 +232,6 @@ public class GetStopsAndDestinationsMockBlackTest {
 			Mockito.when(db.createQuery("SELECT r FROM Ride r WHERE r.stops.name=?1", Ride.class)).thenReturn(query1);
 	        Mockito.when(db.createQuery("SELECT r FROM Ride r WHERE r.from=?2", Ride.class)).thenReturn(query2);
 	        
-	        Mockito.when(query1.setParameter(1, from)).thenReturn(query1);
-	        Mockito.when(query2.setParameter(2, from)).thenReturn(query2);
-	        
 	        Mockito.when(query1.getResultList()).thenReturn(resq1);
 	        Mockito.when(query2.getResultList()).thenReturn(resq2);
 			
@@ -286,9 +277,6 @@ public class GetStopsAndDestinationsMockBlackTest {
 			
 			Mockito.when(db.createQuery("SELECT r FROM Ride r WHERE r.stops.name=?1", Ride.class)).thenReturn(query1);
 	        Mockito.when(db.createQuery("SELECT r FROM Ride r WHERE r.from=?2", Ride.class)).thenReturn(query2);
-	        
-	        Mockito.when(query1.setParameter(1, from)).thenReturn(query1);
-	        Mockito.when(query2.setParameter(2, from)).thenReturn(query2);
 	        
 	        Mockito.when(query1.getResultList()).thenReturn(resq1);
 	        Mockito.when(query2.getResultList()).thenReturn(resq2);

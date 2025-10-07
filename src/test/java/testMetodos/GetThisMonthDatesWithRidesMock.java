@@ -44,7 +44,7 @@ public class GetThisMonthDatesWithRidesMock {
     @Before
     public void setUp() {
         MockitoAnnotations.openMocks(this);
-        sut = new DataAccess(db); // Constructor que acepta EntityManager mock
+        sut = new DataAccess(db); 
     }
 
     @After

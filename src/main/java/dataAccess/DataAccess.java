@@ -580,6 +580,13 @@ public void open(){
 		List<Ride> rides1 = query1.getResultList();
 		List<Ride> rides2 = query2.getResultList();
 		
+		getStopsAfterFromAndDestinations(from, res, numStop, rides1);
+		getAllStopsAndDestination(res, rides2);
+
+		return res;
+	}
+
+	private void getStopsAfterFromAndDestinations(String from, List<String> res, int numStop, List<Ride> rides1) {
 		for(Ride r: rides1) {
 			if(!res.contains(r.getTo())) {
 				res.add(r.getTo());
@@ -590,18 +597,21 @@ public void open(){
 					numStop = s.getNumStop();
 				}
 			}
-			
-			for(Stop s: r.getStops()) {
-				if(s.getNumStop() > numStop) {
-					if(!res.contains(s.getName())) {
-						res.add(s.getName());
-					}
+			getStopsAfterFrom(res, numStop, r);
+		}
+	}
+
+	private void getStopsAfterFrom(List<String> res, int numStop, Ride r) {
+		for(Stop s: r.getStops()) {
+			if(s.getNumStop() > numStop) {
+				if(!res.contains(s.getName())) {
+					res.add(s.getName());
 				}
 			}
-			
-			
 		}
-		
+	}
+
+	private void getAllStopsAndDestination(List<String> res, List<Ride> rides2) {
 		for (Ride r: rides2) {
 			if(!res.contains(r.getTo())) {
 				res.add(r.getTo());
@@ -612,8 +622,6 @@ public void open(){
 				}
 			}
 		}
-
-		return res;
 	}
 	
 	

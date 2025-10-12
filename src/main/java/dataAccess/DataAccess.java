@@ -586,28 +586,40 @@ public void open(){
 		List<String> res = new ArrayList<String>();	
 		int numStop = 0;
 		
-		TypedQuery<Ride> query1 = db.createQuery("SELECT r FROM Ride r WHERE r.stops.name=?1",Ride.class);
-		TypedQuery<Ride> query2 = db.createQuery("SELECT r FROM Ride r WHERE r.from=?2",Ride.class);
-		query1.setParameter(1, from);
-		query2.setParameter(2, from);
-		
-		List<Ride> rides1 = query1.getResultList();
-		List<Ride> rides2 = query2.getResultList();
-		
-		getStopsAfterFromAndDestination(from, res, numStop, rides1);
-		getAllStopsAndDestination(res, rides2);
+		getStopsAfterFromAndDestination(from, res, numStop);
+		getAllStopsAndDestination(from, res);
 
 		return res;
 	}
 
-	private void getStopsAfterFromAndDestination(String from, List<String> res, int numStop, List<Ride> rides1) {
+	private void getStopsAfterFromAndDestination(String from, List<String> res, int numStop) {
+		TypedQuery<Ride> query1 = db.createQuery("SELECT r FROM Ride r WHERE r.stops.name=?1",Ride.class);
+		query1.setParameter(1, from);
+		List<Ride> rides1 = query1.getResultList();
+		
 		for(Ride r: rides1) {
 			if(!res.contains(r.getTo())) {
 				res.add(r.getTo());
 			}
-			
 			numStop = searchStop(from, numStop, r);
 			getStopsAfterFrom(res, numStop, r);
+		}
+	}
+	
+	private void getAllStopsAndDestination(String from, List<String> res) {
+		TypedQuery<Ride> query2 = db.createQuery("SELECT r FROM Ride r WHERE r.from=?2",Ride.class);
+		query2.setParameter(2, from);
+		List<Ride> rides2 = query2.getResultList();
+		
+		for (Ride r: rides2) {
+			if(!res.contains(r.getTo())) {
+				res.add(r.getTo());
+			}
+			for(Stop s: r.getStops()) {
+				if(!res.contains(s.getName())) {
+					res.add(s.getName());
+				}
+			}
 		}
 	}
 
@@ -623,19 +635,6 @@ public void open(){
 	private void getStopsAfterFrom(List<String> res, int numStop, Ride r) {
 		for(Stop s: r.getStops()) {
 			if(s.getNumStop() > numStop) {
-				if(!res.contains(s.getName())) {
-					res.add(s.getName());
-				}
-			}
-		}
-	}
-
-	private void getAllStopsAndDestination(List<String> res, List<Ride> rides2) {
-		for (Ride r: rides2) {
-			if(!res.contains(r.getTo())) {
-				res.add(r.getTo());
-			}
-			for(Stop s: r.getStops()) {
 				if(!res.contains(s.getName())) {
 					res.add(s.getName());
 				}

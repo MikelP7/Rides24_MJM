@@ -177,31 +177,17 @@ public class DataAccess  {
  	 * @throws RideAlreadyExistException if the same ride already exists for the driver
 	 */
 	public Ride createRide(String from, String to, Date date, int nPlaces, float price, String driverEmail, List<Vector<String>> sl) throws  RideAlreadyExistException, RideMustBeLaterThanTodayException {
-		System.out.println(">> DataAccess: createRide=> from= "+from+" to= "+to+" driver="+driverEmail+" date "+date);
+		logger.info(">> DataAccess: createRide=> from= "+from+" to= "+to+" driver="+driverEmail+" date "+date);
 		try {
-			if(new Date().compareTo(date)>0) {
-				throw new RideMustBeLaterThanTodayException(ResourceBundle.getBundle("Etiquetas").getString("CreateRideGUI.ErrorRideMustBeLaterThanToday"));
-			}
+			validateRideDate(date);
 			db.getTransaction().begin();
 			
 			Driver driver = db.find(Driver.class, driverEmail);
-			if (driver.doesRideExists(from, to, date)) {
-				db.getTransaction().commit();
-				throw new RideAlreadyExistException(ResourceBundle.getBundle("Etiquetas").getString("DataAccess.RideAlreadyExist"));
-			}
+			chechExistingRide(from, to, date, driver);
 			Ride ride = driver.addRide(from, to, date, nPlaces, price);
-			//next instruction can be obviated
 			
 			if(!sl.isEmpty()) {
-				for(Vector<String> vs : sl) {
-					int id = 0;
-					while (db.find(Stop.class, id) != null) {
-						id++;
-					}
-					Stop s = new Stop(id, Integer.parseInt(vs.get(1).toString()) ,ride, vs.get(0),Float.parseFloat(vs.get(2).toString()),ride.getDate());
-					ride.getStops().add(s);
-					db.persist(s);
-				}
+				addStopsToRide(sl, ride);
 			}
 			
 			db.persist(driver); 
@@ -209,12 +195,40 @@ public class DataAccess  {
 
 			return ride;
 		} catch (NullPointerException e) {
-			// TODO Auto-generated catch block
 			db.getTransaction().commit();
 			return null;
 		}
 		
 		
+	}
+
+	private void addStopsToRide(List<Vector<String>> sl, Ride ride) {
+		for(Vector<String> vs : sl) {
+			generateNewStopId(ride, vs);
+		}
+	}
+
+	private void generateNewStopId(Ride ride, Vector<String> vs) {
+		int id = 0;
+		while (db.find(Stop.class, id) != null) {
+			id++;
+		}
+		Stop s = new Stop(id, Integer.parseInt(vs.get(1).toString()) ,ride, vs.get(0),Float.parseFloat(vs.get(2).toString()),ride.getDate());
+		ride.getStops().add(s);
+		db.persist(s);
+	}
+
+	private void chechExistingRide(String from, String to, Date date, Driver driver) throws RideAlreadyExistException {
+		if (driver.doesRideExists(from, to, date)) {
+			db.getTransaction().commit();
+			throw new RideAlreadyExistException(ResourceBundle.getBundle("Etiquetas").getString("DataAccess.RideAlreadyExist"));
+		}
+	}
+
+	private void validateRideDate(Date date) throws RideMustBeLaterThanTodayException {
+		if(new Date().compareTo(date)>0) {
+			throw new RideMustBeLaterThanTodayException(ResourceBundle.getBundle("Etiquetas").getString("CreateRideGUI.ErrorRideMustBeLaterThanToday"));
+		}
 	}
 	
 	/**

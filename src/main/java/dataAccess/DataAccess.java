@@ -254,6 +254,62 @@ public class DataAccess  {
 		Date firstDayMonthDate= UtilDate.firstDayMonth(date);
 		Date lastDayMonthDate= UtilDate.lastDayMonth(date);		
 		
+		List<Date> dates = getDirectRideDates(from, to, firstDayMonthDate, lastDayMonthDate);
+		
+		if(dates.isEmpty()) {
+			List<Date> dates2 = getRideDatesWithStops(from, to, firstDayMonthDate, lastDayMonthDate);
+			
+			
+			if(dates2.isEmpty()) {
+				List<Date> dates3 = getRideDatesFromStopsTable(from, to, firstDayMonthDate, lastDayMonthDate);
+				
+				addDates(res, dates3);
+			}
+			else {
+				addDates(res, dates2);
+			}
+		}
+		else {
+	 	 addDates(res, dates);
+	 	 
+		  }
+	 	return res;
+	}
+
+	private void addDates(List<Date> res, List<Date> dates3) {
+		for (Date d:dates3) {
+			res.add(d);
+		}
+	}
+
+	private List<Date> getRideDatesFromStopsTable(String from, String to, Date firstDayMonthDate,
+			Date lastDayMonthDate) {
+		TypedQuery<Date> query3 = db.createQuery("SELECT DISTINCT r.date FROM Ride r JOIN r.stops s WHERE s.name IN (?2, ?3) and s.date BETWEEN ?4 AND ?5",Date.class);
+		
+		query3.setParameter(2, from);
+		query3.setParameter(3, to);
+		query3.setParameter(4, firstDayMonthDate);
+		query3.setParameter(5, lastDayMonthDate);
+		List<Date> dates3 = query3.getResultList();
+		System.out.println(dates3);
+		return dates3;
+	}
+
+	private List<Date> getRideDatesWithStops(String from, String to, Date firstDayMonthDate, Date lastDayMonthDate) {
+		TypedQuery<Date> query2 = db.createQuery("SELECT r.date FROM Ride r WHERE (r.from=?1 OR r.to=?2) AND (r.stops.name=?3 OR r.stops.name=?6) AND r.date BETWEEN ?4 AND ?5",Date.class);   
+		
+		query2.setParameter(1, from);
+		query2.setParameter(2, to);
+		query2.setParameter(3, from);
+		query2.setParameter(6, to);
+		query2.setParameter(4, firstDayMonthDate);
+		query2.setParameter(5, lastDayMonthDate);
+		List<Date> dates2 = query2.getResultList();
+		System.out.println(dates2);
+		return dates2;
+	}
+
+	private List<Date> getDirectRideDates(String from, String to, Date firstDayMonthDate, Date lastDayMonthDate) {
 		TypedQuery<Date> query = db.createQuery("SELECT DISTINCT r.date FROM Ride r WHERE r.from=?1 AND r.to=?2 AND r.date BETWEEN ?3 and ?4",Date.class);   
 		
 		query.setParameter(1, from);
@@ -262,49 +318,7 @@ public class DataAccess  {
 		query.setParameter(4, lastDayMonthDate);
 		List<Date> dates = query.getResultList();
 		System.out.println(dates);
-		
-		if(dates.isEmpty()) {
-			TypedQuery<Date> query2 = db.createQuery("SELECT r.date FROM Ride r WHERE (r.from=?1 OR r.to=?2) AND (r.stops.name=?3 OR r.stops.name=?6) AND r.date BETWEEN ?4 AND ?5",Date.class);   
-			
-			query2.setParameter(1, from);
-			query2.setParameter(2, to);
-			query2.setParameter(3, from);
-			query2.setParameter(6, to);
-			query2.setParameter(4, firstDayMonthDate);
-			query2.setParameter(5, lastDayMonthDate);
-			List<Date> dates2 = query2.getResultList();
-			System.out.println(dates2);
-			
-			
-			if(dates2.isEmpty()) {
-				TypedQuery<Date> query3 = db.createQuery("SELECT DISTINCT r.date FROM Ride r JOIN r.stops s WHERE s.name IN (?2, ?3) and s.date BETWEEN ?4 AND ?5",Date.class);
-				
-				query3.setParameter(2, from);
-				query3.setParameter(3, to);
-				query3.setParameter(4, firstDayMonthDate);
-				query3.setParameter(5, lastDayMonthDate);
-				List<Date> dates3 = query3.getResultList();
-				System.out.println(dates3);
-				
-				
-				for (Date d:dates3) {
-					res.add(d);
-				}
-			}
-			else {
-				for (Date d:dates2){
-					res.add(d);
-				}
-			}
-		}
-		
-		else {
-	 	 for (Date d:dates){
-		   res.add(d);
-	 	}
-	 	 
-		  }
-	 	return res;
+		return dates;
 	}
 	
 
@@ -580,25 +594,30 @@ public void open(){
 		List<Ride> rides1 = query1.getResultList();
 		List<Ride> rides2 = query2.getResultList();
 		
-		getStopsAfterFromAndDestinations(from, res, numStop, rides1);
+		getStopsAfterFromAndDestination(from, res, numStop, rides1);
 		getAllStopsAndDestination(res, rides2);
 
 		return res;
 	}
 
-	private void getStopsAfterFromAndDestinations(String from, List<String> res, int numStop, List<Ride> rides1) {
+	private void getStopsAfterFromAndDestination(String from, List<String> res, int numStop, List<Ride> rides1) {
 		for(Ride r: rides1) {
 			if(!res.contains(r.getTo())) {
 				res.add(r.getTo());
 			}
 			
-			for(Stop s: r.getStops()) {
-				if(s.getName().equals(from)) {
-					numStop = s.getNumStop();
-				}
-			}
+			numStop = searchStop(from, numStop, r);
 			getStopsAfterFrom(res, numStop, r);
 		}
+	}
+
+	private int searchStop(String from, int numStop, Ride r) {
+		for(Stop s: r.getStops()) {
+			if(s.getName().equals(from)) {
+				numStop = s.getNumStop();
+			}
+		}
+		return numStop;
 	}
 
 	private void getStopsAfterFrom(List<String> res, int numStop, Ride r) {

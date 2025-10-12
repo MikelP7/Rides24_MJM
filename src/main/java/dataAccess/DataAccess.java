@@ -461,18 +461,23 @@ public void open(){
 		}
 	}
 	
-	public boolean addBooking(User user, Ride ride, String from, String to ,Integer numSeats, Double prize, Stop stop) {
+	public boolean addBooking(User user, Ride ride, Integer numSeats) {
 		db.getTransaction().begin();
+		
 		User u = db.find(User.class, user.getEmail());
+		Driver d = db.find(Driver.class, ride.getDriver().getEmail());
+		
 		int id = 0;
 		while (db.find(Booking.class, id) != null) {
 			id++;
 		}
 		
-		Booking b = new Booking(id, ride, user, ride.getDriver(), from, to, numSeats, prize);
-
+	    String from = ride.getFrom();
+	    String to = ride.getTo();
+	    Double prize = (double) ride.getPrice();
+	    Stop stop = (ride.getStops() != null && !ride.getStops().isEmpty()) ? ride.getStops().get(0) : null;
 		
-		Driver d = db.find(Driver.class, ride.getDriver().getEmail());
+		Booking b = new Booking(id, ride, user, ride.getDriver(), from, to, numSeats, prize);
 		
 		if(stop!=null) {
 			b.setStop(stop);

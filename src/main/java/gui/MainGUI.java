@@ -67,41 +67,18 @@ public class MainGUI extends JFrame {
 		driver=d;
 		
 		appFacadeInterface = LoginGUI.getBusinessLogic();
-		
-		// this.setSize(271, 295);
+
+
 		this.setSize(495, 290);
 		jLabelSelectOption = new JLabel(ResourceBundle.getBundle("Etiquetas").getString("MainGUI.SelectOption"));
 		jLabelSelectOption.setFont(new Font("Tahoma", Font.BOLD, 13));
 		jLabelSelectOption.setForeground(Color.BLACK);
 		jLabelSelectOption.setHorizontalAlignment(SwingConstants.CENTER);
 		
-		rdbtnNewRadioButton = new JRadioButton("English");
-		rdbtnNewRadioButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				Locale.setDefault(new Locale("en"));
-				System.out.println("Locale: "+Locale.getDefault());
-				paintAgain();				}
-		});
-		buttonGroup.add(rdbtnNewRadioButton);
-		
-		rdbtnNewRadioButton_1 = new JRadioButton("Euskara");
-		rdbtnNewRadioButton_1.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				Locale.setDefault(new Locale("eus"));
-				System.out.println("Locale: "+Locale.getDefault());
-				paintAgain();				}
-		});
-		buttonGroup.add(rdbtnNewRadioButton_1);
-		
-		rdbtnNewRadioButton_2 = new JRadioButton("Castellano");
-		rdbtnNewRadioButton_2.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				Locale.setDefault(new Locale("es"));
-				System.out.println("Locale: "+Locale.getDefault());
-				paintAgain();
-			}
-		});
-		buttonGroup.add(rdbtnNewRadioButton_2);
+		rdbtnNewRadioButton = createLanguageButton("English", "en");
+		rdbtnNewRadioButton_1 = createLanguageButton("Euskara", "eus");
+		rdbtnNewRadioButton_2 = createLanguageButton("Castellano", "es");
+
 	
 		panel = new JPanel();
 		panel.add(rdbtnNewRadioButton_1);
@@ -185,6 +162,18 @@ public class MainGUI extends JFrame {
 		jButtonCreateQuery.setText(ResourceBundle.getBundle("Etiquetas").getString("MainGUI.CreateRide"));
 		this.setTitle(ResourceBundle.getBundle("Etiquetas").getString("MainGUI.MainTitle")+ " - driver :"+driver.getName());
 	}
+	
+	private JRadioButton createLanguageButton (String label, String localeCode) {
+	    JRadioButton button = new JRadioButton(label);
+	    button.addActionListener(e -> {
+	        Locale.setDefault(new Locale(localeCode));
+	        System.out.println("Locale: " + Locale.getDefault());
+	        paintAgain();
+	    });
+	    buttonGroup.add(button);
+	    return button;
+	}
+
 	
 } // @jve:decl-index=0:visual-constraint="0,0"
 

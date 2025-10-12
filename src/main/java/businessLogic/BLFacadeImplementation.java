@@ -163,9 +163,9 @@ public class BLFacadeImplementation  implements BLFacade {
 		return l;
 	}
 	
-	public boolean addBooking(User user, Ride ride, String from, String to ,Integer numSeats, Double price, Stop stop) {
+	public boolean addBooking(User user, Ride ride, Integer numSeats) {
 		dbManager.open();
-		boolean b = dbManager.addBooking(user, ride, from, to, numSeats, price, stop);
+		boolean b = dbManager.addBooking(user, ride, numSeats);
 		dbManager.close();
 		return b;
 	}

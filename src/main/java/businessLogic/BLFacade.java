@@ -86,7 +86,7 @@ public interface BLFacade  {
 	public boolean addRideUser(User user, Integer rideNum, Integer seats);
 	public List<Ride> getRidesByEmail(String email, String type);
 	public List<Booking> getBookingByEmail (String email, String type);
-	public boolean addBooking(User user, Ride ride, String from, String to ,Integer numSeats, Double price, Stop stop);
+	public boolean addBooking(User user, Ride ride, Integer numSeats);
 	public Ride findRide(Integer id);
 	public boolean acceptBooking (Integer bookingId, float price);
 	public float getBalanceByEmail(String email);

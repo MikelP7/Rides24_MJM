@@ -127,19 +127,6 @@ public class BookRideGUI extends JFrame {
 			public void itemStateChanged(ItemEvent e) {
 				destinationCities.removeAllElements();
 				BLFacade facade = LoginGUI.getBusinessLogic();
-
-//				List<String> aCities=facade.getDestinationCities((String)jComboBoxOrigin.getSelectedItem());
-//				List<String> stops = facade.getStopsByOriginName((String)jComboBoxOrigin.getSelectedItem());
-//				
-//				
-//				
-//				for(String stop: stops) {
-//					destinationCities.addElement(stop);
-//				}
-//				
-//				for(String aciti:aCities) {
-//					destinationCities.addElement(aciti);
-//				}
 				
 				List<String> names = facade.getStopsAndDestinations((String)jComboBoxOrigin.getSelectedItem());
 				
@@ -360,18 +347,14 @@ public class BookRideGUI extends JFrame {
 							sto = st;
 						}
 					}
-					b = facade.addBooking(u,r,r.getFrom(),r.getTo(),Integer.parseInt(numberSeatsComboBox.getSelectedItem().toString()),stopPrice,sto);
+					b = facade.addBooking(u,r, Integer.parseInt(numberSeatsComboBox.getSelectedItem().toString()));
 				}
 				else {
-					b = facade.addBooking(u,r,r.getFrom(),r.getTo(),Integer.parseInt(numberSeatsComboBox.getSelectedItem().toString()),Double.parseDouble(cost),null);
+					b = facade.addBooking(u,r,Integer.parseInt(numberSeatsComboBox.getSelectedItem().toString()));
 				}
 				
 				
-				if(b) {
-//					String dest = jComboBoxDestination.getSelectedItem().toString();
-//					if(!dest.equals(r.getTo())) {
-//						facade.setStopBooking(u.getBooked().get(0), dest);
-//					}
+				if(Boolean.TRUE.equals(b)) {
 					
 					textArea.setForeground(new Color(0,255,0));
 					textArea.setText("Booked!");

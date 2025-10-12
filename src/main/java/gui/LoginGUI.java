@@ -163,7 +163,7 @@ public class LoginGUI extends JFrame {
 		
 				RegisterGUI r = new RegisterGUI();
 				r.setVisible(true);
-				//dispose();
+
 				
 			}
 		});

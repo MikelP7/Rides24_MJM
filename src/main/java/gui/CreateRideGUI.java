@@ -129,6 +129,7 @@ public class CreateRideGUI extends JFrame {
 				"Stop Name", "Number", "Price",
 			}
 		) {
+			
 			@Override
 			public boolean isCellEditable(int row, int column) {
 				return false;

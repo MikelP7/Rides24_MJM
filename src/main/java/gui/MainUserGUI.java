@@ -155,10 +155,12 @@ public class MainUserGUI extends JFrame {
 	}
 	
 	private void paintAgain() {
-		jLabelSelectOption.setText(ResourceBundle.getBundle("Etiquetas").getString("MainUserGUI.SelectOption"));
-		jButtonQueryQueries.setText(ResourceBundle.getBundle("Etiquetas").getString("MainUserGUI.QueryRides"));
-		jButtonBookQuery.setText(ResourceBundle.getBundle("Etiquetas").getString("MainUserGUI.BookRide"));
-		this.setTitle(ResourceBundle.getBundle("Etiquetas").getString("MainUserGUI.MainTitle")+ " - User :"+user.getUsername());
+		ResourceBundle bundle = ResourceBundle.getBundle("Etiquetas");
+		
+		jLabelSelectOption.setText(bundle.getString("MainUserGUI.SelectOption"));
+		jButtonQueryQueries.setText(bundle.getString("MainUserGUI.QueryRides"));
+		jButtonBookQuery.setText(bundle.getString("MainUserGUI.BookRide"));
+		this.setTitle(bundle.getString("MainUserGUI.MainTitle")+ " - User :"+user.getUsername());
 	}
 	
 } // @jve:decl-index=0:visual-constraint="0,0"

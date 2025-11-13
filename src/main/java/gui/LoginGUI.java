@@ -10,7 +10,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import businesslogic.*;
+import businessLogic.*;
 
 import javax.swing.JToolBar;
 import javax.swing.WindowConstants;

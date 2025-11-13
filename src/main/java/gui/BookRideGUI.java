@@ -4,7 +4,7 @@ import configuration.UtilDate;
 
 import com.toedter.calendar.JCalendar;
 
-import businesslogic.BLFacade;
+import businessLogic.BLFacade;
 import domain.Driver;
 import domain.Ride;
 import domain.Stop;

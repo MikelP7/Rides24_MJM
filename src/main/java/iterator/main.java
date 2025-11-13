@@ -23,6 +23,7 @@ public class main {
 		System.out.println("_____________________");
 		System.out.println("FROM FIRST TO LAST");
 		i.goFirst(); // Go to first element
+		
 		while (i.hasNext()) {
 			c = i.next();
 			System.out.println(c);

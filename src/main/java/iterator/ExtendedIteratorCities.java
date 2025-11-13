@@ -3,12 +3,12 @@ package iterator;
 import java.util.List;
 import java.util.Vector;
 
-public class DepartingCitiesIterator implements ExtendedIterator<String>{
+public class ExtendedIteratorCities implements ExtendedIterator<String>{
 
 	private List<String> DepartingCities = new Vector<String>();
     private int index;
 	
-    public DepartingCitiesIterator(List<String> cities) {
+    public ExtendedIteratorCities(List<String> cities) {
     	this.DepartingCities = cities;
     	this.index = 0;
     }

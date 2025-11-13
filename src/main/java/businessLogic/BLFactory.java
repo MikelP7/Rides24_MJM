@@ -8,13 +8,11 @@ import javax.xml.ws.Service;
 import configuration.ConfigXML;
 import dataAccess.DataAccess;
 
-public class BLFacadeFactory {
+public class BLFactory {
 
-	public static BLFacade getBLFacade(boolean isLocal) {
+	public static BLFacade getBusinessLogicFactory(boolean isLocal) {
 		try {
-			
 			ConfigXML c=ConfigXML.getInstance();
-			
 			BLFacade appFacadeInterface;
 			
 			if (isLocal) {

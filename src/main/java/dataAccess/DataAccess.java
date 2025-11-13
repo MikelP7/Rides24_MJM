@@ -93,41 +93,45 @@ public class DataAccess  {
 	    
 		   
 		    //Create drivers 
-//			Driver driver1=new Driver("driver1@gmail.com","test1","Aitor Fernandez");
-//			Driver driver2=new Driver("driver2@gmail.com","test2","Ane Gaztañaga");
-//			Driver driver3=new Driver("driver3@gmail.com","test3","Test driver");
-//			Driver driver4=new Driver("driver4@gmail.com","111","Mikel");
-//			
-//			driver1.setBalance(10);
-//			
-//			User user1 = new User("Mikel Pallin","111","mikel@test.com");
-//
-//			
-//			ciudades.add("Donostia"); 	//0
-//			ciudades.add("Bilbo");		//1
-//			ciudades.add("Gasteiz");	//2
-//			ciudades.add("iruña");		//3
-//			ciudades.add("Eibar");		//4
-//			
-//			//Create rides
-//			driver1.addRide(ciudades.get(0), ciudades.get(1), UtilDate.newDate(year,month,15), 4, 7);
-//			driver1.addRide(ciudades.get(0), ciudades.get(2), UtilDate.newDate(year,month,6), 4, 8);
-//			driver1.addRide(ciudades.get(1), ciudades.get(0), UtilDate.newDate(year,month,25), 4, 4);
-//
-//			driver1.addRide(ciudades.get(0), ciudades.get(3), UtilDate.newDate(year,month,7), 4, 8);
-//			
-//			driver2.addRide(ciudades.get(0), ciudades.get(1), UtilDate.newDate(year,month,15), 3, 3);
-//			driver2.addRide(ciudades.get(1), ciudades.get(0), UtilDate.newDate(year,month,25), 2, 5);
-//			driver2.addRide(ciudades.get(4), ciudades.get(2), UtilDate.newDate(year,month,6), 2, 5);
-//
-//			driver3.addRide(ciudades.get(1), ciudades.get(0), UtilDate.newDate(year,month,14), 1, 3);
-//						
-//			
-//			if(!db.contains(driver1)) db.persist(driver1);		
-//			if(!db.contains(driver2)) db.persist(driver2);	
-//			if(!db.contains(driver3)) db.persist(driver3);
-//			if(!db.contains(driver4)) db.persist(driver4);
-//			if(!db.contains(user1))	  db.persist(user1);
+			Driver driver1=new Driver("driver1@gmail.com","test1","Aitor Fernandez");
+			Driver driver2=new Driver("driver2@gmail.com","test2","Ane Gaztañaga");
+			Driver driver3=new Driver("driver3@gmail.com","test3","Test driver");
+			Driver driver4=new Driver("driver4@gmail.com","111","Mikel");
+			
+			driver1.setBalance(10);
+			
+			User user1 = new User("Mikel Pallin","111","mikel@test.com");
+
+			
+			ciudades.add("Donostia"); 	//0
+			ciudades.add("Bilbo");		//1
+			ciudades.add("Gasteiz");	//2
+			ciudades.add("Iruña");		//3
+			ciudades.add("Eibar");		//4
+			
+			//Create rides
+			driver1.addRide(ciudades.get(0), ciudades.get(1), UtilDate.newDate(year,month,15), 4, 7);
+			driver1.addRide(ciudades.get(0), ciudades.get(2), UtilDate.newDate(year,month,6), 4, 8);
+			driver1.addRide(ciudades.get(1), ciudades.get(0), UtilDate.newDate(year,month,25), 4, 4);
+
+			driver1.addRide(ciudades.get(0), ciudades.get(3), UtilDate.newDate(year,month,7), 4, 8);
+			
+			driver2.addRide(ciudades.get(0), ciudades.get(1), UtilDate.newDate(year,month,15), 3, 3);
+			driver2.addRide(ciudades.get(1), ciudades.get(0), UtilDate.newDate(year,month,25), 2, 5);
+			driver2.addRide(ciudades.get(4), ciudades.get(2), UtilDate.newDate(year,month,6), 2, 5);
+
+			driver3.addRide(ciudades.get(1), ciudades.get(0), UtilDate.newDate(year,month,14), 1, 3);
+			
+			driver4.addRide(ciudades.get(2), ciudades.get(1), UtilDate.newDate(year,month,15), 3, 3);
+			driver4.addRide(ciudades.get(3), ciudades.get(0), UtilDate.newDate(year,month,25), 2, 5);
+			driver4.addRide(ciudades.get(4), ciudades.get(2), UtilDate.newDate(year,month,6), 2, 5);
+						
+			
+			if(!db.contains(driver1)) db.persist(driver1);		
+			if(!db.contains(driver2)) db.persist(driver2);	
+			if(!db.contains(driver3)) db.persist(driver3);
+			if(!db.contains(driver4)) db.persist(driver4);
+			if(!db.contains(user1))	  db.persist(user1);
 			
 			
 			
@@ -148,8 +152,8 @@ public class DataAccess  {
 			TypedQuery<String> query = db.createQuery("SELECT DISTINCT r.from FROM Ride r ORDER BY r.from", String.class);
 			List<String> cities = query.getResultList();
 			return cities;
-		
 	}
+	
 	/**
 	 * This method returns all the arrival destinations, from all rides that depart from a given city  
 	 * 

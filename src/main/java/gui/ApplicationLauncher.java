@@ -3,7 +3,7 @@ package gui;
 import java.util.Locale;
 import javax.swing.UIManager;
 import businessLogic.BLFacade;
-import businessLogic.BLFacadeFactory;
+import businessLogic.BLFactory;
 import configuration.ConfigXML;
 
 
@@ -23,7 +23,7 @@ public class ApplicationLauncher {
 			UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
 			
 			BLFacade appFacadeInterface;
-			appFacadeInterface = BLFacadeFactory.getBLFacade(c.isBusinessLogicLocal());
+			appFacadeInterface = BLFactory.getBusinessLogicFactory(c.isBusinessLogicLocal());
             LoginGUI.setBussinessLogic(appFacadeInterface);
 			
 		}catch (Exception e) {

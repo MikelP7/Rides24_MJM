@@ -11,6 +11,7 @@ import domain.User;
 import domain.Booking;
 import domain.Driver;
 import exceptions.RideMustBeLaterThanTodayException;
+import iterator.ExtendedIterator;
 import exceptions.RideAlreadyExistException;
 
 import javax.jws.WebMethod;
@@ -99,4 +100,6 @@ public interface BLFacade  {
 	public List<Ride> getRidesByStop(String from, String to, Date date);
 	public List<String> getStopsAndDestinations(String from);
 	public List<Ride> getRidesByBothStops(String from, String to, Date date);
+	
+	public ExtendedIterator<String> getDepartingCitiesIterator();
 }

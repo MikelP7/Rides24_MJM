@@ -80,6 +80,8 @@ public interface BLFacade  {
 	 */	
 	@WebMethod public void initializeBD();
 	
+	
+	public Driver getDriver(String username);
 	public Driver loginDriver(String username, String password);
 	public User loginUser(String username, String password);
 	public boolean registerDriver(String username, String email, String password);

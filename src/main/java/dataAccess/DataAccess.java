@@ -125,6 +125,9 @@ public class DataAccess  {
 			driver4.addRide(ciudades.get(2), ciudades.get(1), UtilDate.newDate(year,month,15), 3, 3);
 			driver4.addRide(ciudades.get(3), ciudades.get(0), UtilDate.newDate(year,month,25), 2, 5);
 			driver4.addRide(ciudades.get(4), ciudades.get(2), UtilDate.newDate(year,month,6), 2, 5);
+			driver4.addRide(ciudades.get(0), ciudades.get(1), UtilDate.newDate(year,month,15), 3, 3);
+			driver4.addRide(ciudades.get(1), ciudades.get(0), UtilDate.newDate(year,month,25), 2, 5);
+			driver4.addRide(ciudades.get(4), ciudades.get(2), UtilDate.newDate(year,month,6), 2, 5);
 						
 			
 			if(!db.contains(driver1)) db.persist(driver1);		
@@ -378,7 +381,6 @@ public void open(){
 		}
 		System.out.println("Driver not found for username: " + username);
 		return null;
-	
 	}
 	
 	public User loginUser(String username, String password) {
@@ -663,6 +665,14 @@ public void open(){
 				}
 			}
 		}
+	}
+	
+	public Driver getDriver(String username) {
+		TypedQuery<Driver> query = db.createQuery("SELECT d FROM Driver d WHERE d.name= :username", Driver.class);
+		query.setParameter("username", username);
+		List<Driver> p = query.getResultList();
+		Driver d = p.get(0);
+		return d;
 	}
 	
 	

@@ -295,3 +295,343 @@ New type java.util.Vector<domain.Ride>
 [2025-11-13 20:43:59 #15 type.registry] 
 New type java.util.Vector<domain.Stop>
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-11-13 21:20:34 #1 store] 
+Database 'C:\Users\mikel\git\Rides24_MJM\src\main\resources\rides.temp' is opened by 9208@MSI-M1K3L
+
+[2025-11-13 21:20:34 #2 type.registry] 
+New type domain.Driver
+
+[2025-11-13 21:20:34 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2025-11-13 21:20:34 #4 type.registry] 
+New type domain.Booking
+
+[2025-11-13 21:20:34 #5 type.registry] 
+New type domain.Ride
+
+[2025-11-13 21:20:34 #6 type] 
+Type domain.Booking is not enhanced.
+
+[2025-11-13 21:20:34 #7 type.registry] 
+New type domain.Stop
+
+[2025-11-13 21:20:34 #8 type.registry] 
+New type domain.User
+
+[2025-11-13 21:20:34 #9 type] 
+Type domain.Ride is not enhanced.
+
+[2025-11-13 21:20:34 #10 type] 
+Type domain.Stop is not enhanced.
+
+[2025-11-13 21:20:34 #11 type] 
+Type domain.User is not enhanced.
+
+[2025-11-13 21:20:34 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-11-13 21:20:34 #13 type.registry] 
+New type java.util.Vector<domain.Booking>
+
+[2025-11-13 21:20:34 #14 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2025-11-13 21:20:34 #15 type.registry] 
+New type java.util.Vector<domain.Stop>
+
+[2025-11-13 21:20:34 #16 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-11-13 21:20:34 #17 type.registry] 
+New type java.util.ArrayList<domain.Ride>
+
+[2025-11-13 21:20:34 #18 type.registry] 
+New type com.objectdb.o.LMT
+
+[2025-11-13 21:20:34 #19 type.registry] 
+New type com.objectdb.o.VAL
+
+[2025-11-13 21:20:34 #20 type.registry] 
+New type com.objectdb.o.RFV
+
+[2025-11-13 21:20:34 #21 type.registry] 
+New type java.util.ArrayList<domain.Stop>
+
+[2025-11-13 21:20:34 #22 type.registry] 
+New type java.util.ArrayList<domain.Booking>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-11-13 21:31:58 #1 store] 
+Database 'C:\Users\mikel\git\Rides24_MJM\src\main\resources\rides.temp' is opened by 3308@MSI-M1K3L
+
+[2025-11-13 21:31:58 #2 type.registry] 
+New type domain.Driver
+
+[2025-11-13 21:31:58 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2025-11-13 21:31:58 #4 type.registry] 
+New type domain.Booking
+
+[2025-11-13 21:31:58 #5 type.registry] 
+New type domain.Ride
+
+[2025-11-13 21:31:58 #6 type] 
+Type domain.Booking is not enhanced.
+
+[2025-11-13 21:31:58 #7 type.registry] 
+New type domain.Stop
+
+[2025-11-13 21:31:58 #8 type.registry] 
+New type domain.User
+
+[2025-11-13 21:31:58 #9 type] 
+Type domain.Ride is not enhanced.
+
+[2025-11-13 21:31:58 #10 type] 
+Type domain.Stop is not enhanced.
+
+[2025-11-13 21:31:58 #11 type] 
+Type domain.User is not enhanced.
+
+[2025-11-13 21:31:58 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-11-13 21:31:58 #13 type.registry] 
+New type java.util.Vector<domain.Booking>
+
+[2025-11-13 21:31:58 #14 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2025-11-13 21:31:58 #15 type.registry] 
+New type java.util.Vector<domain.Stop>
+
+[2025-11-13 21:31:58 #16 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-11-13 21:31:58 #17 type.registry] 
+New type java.util.ArrayList<domain.Ride>
+
+[2025-11-13 21:31:58 #18 type.registry] 
+New type com.objectdb.o.LMT
+
+[2025-11-13 21:31:58 #19 type.registry] 
+New type com.objectdb.o.VAL
+
+[2025-11-13 21:31:58 #20 type.registry] 
+New type com.objectdb.o.RFV
+
+[2025-11-13 21:31:58 #21 type.registry] 
+New type java.util.ArrayList<domain.Stop>
+
+[2025-11-13 21:31:58 #22 type.registry] 
+New type java.util.ArrayList<domain.Booking>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-11-13 21:35:02 #1 store] 
+Database 'C:\Users\mikel\git\Rides24_MJM\src\main\resources\rides.temp' is opened by 15132@MSI-M1K3L
+
+[2025-11-13 21:35:02 #2 type.registry] 
+New type domain.Driver
+
+[2025-11-13 21:35:02 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2025-11-13 21:35:02 #4 type.registry] 
+New type domain.Booking
+
+[2025-11-13 21:35:02 #5 type.registry] 
+New type domain.Ride
+
+[2025-11-13 21:35:02 #6 type] 
+Type domain.Booking is not enhanced.
+
+[2025-11-13 21:35:02 #7 type.registry] 
+New type domain.Stop
+
+[2025-11-13 21:35:02 #8 type.registry] 
+New type domain.User
+
+[2025-11-13 21:35:02 #9 type] 
+Type domain.Ride is not enhanced.
+
+[2025-11-13 21:35:02 #10 type] 
+Type domain.Stop is not enhanced.
+
+[2025-11-13 21:35:02 #11 type] 
+Type domain.User is not enhanced.
+
+[2025-11-13 21:35:02 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-11-13 21:35:02 #13 type.registry] 
+New type java.util.Vector<domain.Booking>
+
+[2025-11-13 21:35:02 #14 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2025-11-13 21:35:02 #15 type.registry] 
+New type java.util.Vector<domain.Stop>
+
+[2025-11-13 21:35:02 #16 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-11-13 21:35:02 #17 type.registry] 
+New type java.util.ArrayList<domain.Ride>
+
+[2025-11-13 21:35:02 #18 type.registry] 
+New type com.objectdb.o.LMT
+
+[2025-11-13 21:35:02 #19 type.registry] 
+New type com.objectdb.o.VAL
+
+[2025-11-13 21:35:02 #20 type.registry] 
+New type com.objectdb.o.RFV
+
+[2025-11-13 21:35:02 #21 type.registry] 
+New type java.util.ArrayList<domain.Stop>
+
+[2025-11-13 21:35:02 #22 type.registry] 
+New type java.util.ArrayList<domain.Booking>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-11-13 21:36:40 #1 store] 
+Database 'C:\Users\mikel\git\Rides24_MJM\src\main\resources\rides.temp' is opened by 14540@MSI-M1K3L
+
+[2025-11-13 21:36:40 #2 type.registry] 
+New type domain.Driver
+
+[2025-11-13 21:36:40 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2025-11-13 21:36:40 #4 type.registry] 
+New type domain.Booking
+
+[2025-11-13 21:36:40 #5 type.registry] 
+New type domain.Ride
+
+[2025-11-13 21:36:40 #6 type] 
+Type domain.Booking is not enhanced.
+
+[2025-11-13 21:36:40 #7 type.registry] 
+New type domain.Stop
+
+[2025-11-13 21:36:40 #8 type.registry] 
+New type domain.User
+
+[2025-11-13 21:36:40 #9 type] 
+Type domain.Ride is not enhanced.
+
+[2025-11-13 21:36:40 #10 type] 
+Type domain.Stop is not enhanced.
+
+[2025-11-13 21:36:40 #11 type] 
+Type domain.User is not enhanced.
+
+[2025-11-13 21:36:40 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-11-13 21:36:40 #13 type.registry] 
+New type java.util.Vector<domain.Booking>
+
+[2025-11-13 21:36:40 #14 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2025-11-13 21:36:40 #15 type.registry] 
+New type java.util.Vector<domain.Stop>
+
+[2025-11-13 21:36:40 #16 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-11-13 21:36:40 #17 type.registry] 
+New type java.util.ArrayList<domain.Ride>
+
+[2025-11-13 21:36:40 #18 type.registry] 
+New type com.objectdb.o.LMT
+
+[2025-11-13 21:36:40 #19 type.registry] 
+New type com.objectdb.o.VAL
+
+[2025-11-13 21:36:40 #20 type.registry] 
+New type com.objectdb.o.RFV
+
+[2025-11-13 21:36:40 #21 type.registry] 
+New type java.util.ArrayList<domain.Stop>
+
+[2025-11-13 21:36:40 #22 type.registry] 
+New type java.util.ArrayList<domain.Booking>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2025-11-13 21:38:09 #1 store] 
+Database 'C:\Users\mikel\git\Rides24_MJM\src\main\resources\rides.temp' is opened by 17596@MSI-M1K3L
+
+[2025-11-13 21:38:10 #2 type.registry] 
+New type domain.Driver
+
+[2025-11-13 21:38:10 #3 type] 
+Type domain.Driver is not enhanced.
+
+[2025-11-13 21:38:10 #4 type.registry] 
+New type domain.Booking
+
+[2025-11-13 21:38:10 #5 type.registry] 
+New type domain.Ride
+
+[2025-11-13 21:38:10 #6 type] 
+Type domain.Booking is not enhanced.
+
+[2025-11-13 21:38:10 #7 type.registry] 
+New type domain.Stop
+
+[2025-11-13 21:38:10 #8 type.registry] 
+New type domain.User
+
+[2025-11-13 21:38:10 #9 type] 
+Type domain.Ride is not enhanced.
+
+[2025-11-13 21:38:10 #10 type] 
+Type domain.Stop is not enhanced.
+
+[2025-11-13 21:38:10 #11 type] 
+Type domain.User is not enhanced.
+
+[2025-11-13 21:38:10 #12 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
+[2025-11-13 21:38:10 #13 type.registry] 
+New type java.util.Vector<domain.Booking>
+
+[2025-11-13 21:38:10 #14 type.registry] 
+New type java.util.Vector<domain.Ride>
+
+[2025-11-13 21:38:10 #15 type.registry] 
+New type java.util.Vector<domain.Stop>
+
+[2025-11-13 21:38:10 #16 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2025-11-13 21:38:10 #17 type.registry] 
+New type java.util.ArrayList<domain.Ride>
+
+[2025-11-13 21:38:10 #18 type.registry] 
+New type com.objectdb.o.LMT
+
+[2025-11-13 21:38:10 #19 type.registry] 
+New type com.objectdb.o.VAL
+
+[2025-11-13 21:38:10 #20 type.registry] 
+New type com.objectdb.o.RFV
+
+[2025-11-13 21:38:10 #21 type.registry] 
+New type java.util.ArrayList<domain.Stop>
+
+[2025-11-13 21:38:10 #22 type.registry] 
+New type java.util.ArrayList<domain.Booking>
+

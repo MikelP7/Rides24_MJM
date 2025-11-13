@@ -255,6 +255,19 @@ public class BLFacadeImplementation  implements BLFacade {
 		return rides;
 	}
 	
+	@Override
+	public Driver getDriver(String username) {
+		dbManager.open();
+		Driver driver = dbManager.getDriver(username);
+		dbManager.close();
+		return driver;
+	}
+	
+	@Override
+	public ExtendedIterator<String> getDepartingCitiesIterator() {
+		List<String> cities = this.getDepartCities();
+		return new ExtendedIteratorCities(cities);
+	}
 	
 	/**
 	 * {@inheritDoc}
@@ -264,14 +277,7 @@ public class BLFacadeImplementation  implements BLFacade {
     	dbManager.open();
 		dbManager.initializeDB();
 		dbManager.close();
-	}
-
-	@Override
-	public ExtendedIterator<String> getDepartingCitiesIterator() {
-		List<String> cities = this.getDepartCities();
-		return new ExtendedIteratorCities(cities);
-	}
-    
+	}    
 
 }
 
